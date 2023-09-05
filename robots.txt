@@ -1,1 +1,1 @@
-Sitemap: https://StatOmique.github.io/statomique.github.io/sitemap.xml
+Sitemap: https://github.com/StatOmique/statomique.github.io/sitemap.xml
