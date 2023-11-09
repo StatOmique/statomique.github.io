@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/StatOmique/statomique.github.io/index.html</loc>
-    <lastmod>2023-10-19T20:01:08.787Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/StatOmique/statomique.github.io/communaute.html</loc>
-    <lastmod>2023-10-19T20:01:08.131Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/StatOmique/statomique.github.io/communications.html</loc>
-    <lastmod>2023-10-19T20:01:06.927Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/StatOmique/statomique.github.io/posts/2023-02-17-anafactorielles/index.html</loc>
-    <lastmod>2023-10-19T20:01:06.207Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/StatOmique/statomique.github.io/posts/2021-11-16-deconvolution/index.html</loc>
-    <lastmod>2023-10-19T20:01:05.435Z</lastmod>
+    <loc>https://github.com/StatOmique/statomique.github.io/posts/2019-11-05-10-ans/index.html</loc>
+    <lastmod>2023-11-09T13:59:35.668Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/StatOmique/statomique.github.io/posts/2022-10-25-newrnaseq/index.html</loc>
-    <lastmod>2023-10-19T20:01:04.623Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/StatOmique/statomique.github.io/posts/2023-07-19-journeegdrBIM/index.html</loc>
-    <lastmod>2023-10-19T20:01:02.403Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/StatOmique/statomique.github.io/posts/2021-04-06-jmariette/index.html</loc>
-    <lastmod>2023-10-19T20:01:04.995Z</lastmod>
+    <lastmod>2023-11-09T13:59:35.116Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/StatOmique/statomique.github.io/posts/2020-11-19-rnaseq/index.html</loc>
-    <lastmod>2023-10-19T20:01:05.827Z</lastmod>
+    <lastmod>2023-11-09T13:59:34.432Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/StatOmique/statomique.github.io/posts/2019-11-05-10-ans/index.html</loc>
-    <lastmod>2023-10-19T20:01:06.591Z</lastmod>
+    <loc>https://github.com/StatOmique/statomique.github.io/posts/2021-11-16-deconvolution/index.html</loc>
+    <lastmod>2023-11-09T13:59:33.728Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/StatOmique/statomique.github.io/animations.html</loc>
-    <lastmod>2023-10-19T20:01:07.783Z</lastmod>
+    <loc>https://github.com/StatOmique/statomique.github.io/communaute.html</loc>
+    <lastmod>2023-11-09T13:59:33.092Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/StatOmique/statomique.github.io/index.html</loc>
+    <lastmod>2023-11-09T13:59:32.040Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/StatOmique/statomique.github.io/apropos.html</loc>
-    <lastmod>2023-10-19T20:01:08.463Z</lastmod>
+    <lastmod>2023-11-09T13:59:31.188Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/StatOmique/statomique.github.io/animations.html</loc>
+    <lastmod>2023-11-09T13:59:32.824Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/StatOmique/statomique.github.io/communications.html</loc>
+    <lastmod>2023-11-09T13:59:33.380Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/StatOmique/statomique.github.io/posts/2023-07-19-journeegdrBIM/index.html</loc>
+    <lastmod>2023-11-09T13:59:34.140Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/StatOmique/statomique.github.io/posts/2023-02-17-anafactorielles/index.html</loc>
+    <lastmod>2023-11-09T13:59:34.728Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/StatOmique/statomique.github.io/posts/2021-04-06-jmariette/index.html</loc>
+    <lastmod>2023-11-09T13:59:35.392Z</lastmod>
   </url>
 </urlset>
