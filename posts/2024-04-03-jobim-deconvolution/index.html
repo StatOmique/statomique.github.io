@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2021-04-07">
+<meta name="author" content="">
 
-<title>StatOmique - Kernel methods in systems biology</title>
+<title>StatOmique - New horizons in Deconvolving Bulk Transcriptomic Samples</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -56,17 +56,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
   }
 }</script>
 
@@ -88,8 +88,8 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">StatOmique</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Recherche"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -117,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Basculer le mode sombre"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -126,10 +126,11 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Kernel methods in systems biology</h1>
+      <h1 class="title">New horizons in Deconvolving Bulk Transcriptomic Samples</h1>
+            <p class="subtitle lead">Beyond bulk RNA-Seq</p>
                                 <div class="quarto-categories">
-                <div class="quarto-category">R</div>
-                <div class="quarto-category">webinar</div>
+                <div class="quarto-category">symposium</div>
+                <div class="quarto-category">conference</div>
               </div>
                   </div>
   </div>
@@ -139,9 +140,9 @@ ul.task-list li input[type="checkbox"] {
 
       
       <div>
-      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-heading">Date de publication</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">April 7, 2021</p>
+        <p class="date">4 avril 2024</p>
       </div>
     </div>
     
@@ -153,7 +154,18 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a>
+  <ul class="collapse">
+  <li><a href="#keynotes" id="toc-keynotes" class="nav-link" data-scroll-target="#keynotes">Keynotes</a></li>
+  <li><a href="#program" id="toc-program" class="nav-link" data-scroll-target="#program">Program</a></li>
+  <li><a href="#pratical-information" id="toc-pratical-information" class="nav-link" data-scroll-target="#pratical-information">Pratical information</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -162,14 +174,56 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Jérôme Mariette : <strong>Kernel methods in systems biology</strong> Plateforme Genotoul Bioinfo, Unité de Mathématique et Informatique Appliquées de Toulouse, INRAE</p>
-<p>The development of high-throughput sequencing technologies has lead to produce high dimensional heterogeneous datasets at different living scales. To process such data, integrative methods have been shown to be relevant, but still remain challenging. Here, we propose contributions useful to simultaneously explore heterogeneous multi-omics datasets and to select relevant features in a dataset. To tackle these problems, kernels and kernel methods represent a natural framework because they allow to handle the own nature of each datasets while permitting their combination. In a first part, I will present a multiple kernel framework that allows to integrate multiple datasets of various types into a single exploratory analysis. In a second part, I will introduce feature selection methods that are adapted to the kernel framework and go beyond the well established work in supervised learning by addressing the more difficult tasks of unsupervised learning and kernel output learning. The proposed methods efficiency is highlighted in the domain of microbial ecology : eight TARA oceans,datasets are integrated and analysed.</p>
-<section id="references" class="level4">
-<h4 class="anchored" data-anchor-id="references">References</h4>
-<p><a href="https://cran.r-project.org/package=mixKernel">package R mixKernel</a> <a href="http://mixkernel.clementine.wf/">site mixKernel</a><br>
-Mariette, J. and Villa-Vialaneix, N. (2018). <strong>Unsupervised multiple kernel learning for heterogeneous data integration.</strong> <em>Bioinformatics</em>, 34(6), 1009-1015</p>
+<section id="motivation" class="level2">
+<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
+<p>Although bulk transcriptomic analyses have greatly contributed to a better understanding of complex diseases, their accuracy is usually hindered by the heterogeneous cellular composition of most biological samples. On the other hand, single-cell RNASeq analysis are expensive and time-consuming, while they suffer from a variety of intrinsic statistical limitations, notably a subsequent reduced depth and coverage of the RNA library.</p>
+<p>To address the limitations of these physical approaches, a vast array of computational deconvolution methods has been designed to automatically infer the characteristics of the distinct subcomponents that make up tissues. The most typical approach consists of inferring the relative abundancies of the cellular populations by leveraging reference samples of physically purified populations. Briefly, the deconvolution algorithms assume a linear relationship between the resulting, total ‘bulk’ expressions of transcripts (depicted as the observations in a regression framework), and the expression of transcripts in purified cell populations. The unknown cellular ratios to retrieve are subsequently the individual contributions of subpopulations to the “pool of transcripts” within each sample.</p>
+<p>However, gold-standard deconvolution algorithms suffer from a variety of common limitations. While a jungle of methods has been proposed, there’s no real consensus nor practical solution to solve the following critical issues: their underperformance at differentiating closely related or rare cell populations, the lack of consistency characterizing the outputs returned by these methods and the commonly observed discrepancy observed in real-word conditions between the ratios estimated through these numerical approaches, and the ones measured using physical methods, such as mass cytometry experiences.</p>
+<p>Finding potential solutions to these problems will promote new methodological advances that will have direct impact on the research of versatile and multi- faceted diseases, such as cancer or auto-immune diseases. Indeed, by enhancing the characterization of complex and critical tissues and niches, such as the tumoral micro-environment in a non-destructive fashion, these cutting-edge models would streamline the unravelling of the interactions occurring within a variety of cell populations, paramount to maintain the homeostasis of biological systems.</p>
+<section id="keynotes" class="level3">
+<h3 class="anchored" data-anchor-id="keynotes">Keynotes</h3>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td><img src="../../media/2024-jobim-deconvolution/verapancaldi.jpg" class="img-fluid quarto-figure quarto-figure-left" width="146"> |<a href="https://www.crct-inserm.fr/annuaire/vera-pancaldi/">Vera Pancaldi (INSERM, France)</a> |</td>
+</tr>
+<tr class="even">
+<td><img src="../../media/2024-jobim-deconvolution/francescafinotello.jpg" class="img-fluid" width="146"> | <a href="https://computationalbiomedicinegroup.github.io/">Francesca Finotello (Institute of Molecular Biology and Digital Science Center (DiSC), University of Innsbruck, Austria)</a></td>
+</tr>
+<tr class="odd">
+<td><img src="../../media/2024-jobim-deconvolution/Lorenzo_Merotto.jpg" class="img-fluid" width="146"> | Lorenzo Merotto</td>
+</tr>
+<tr class="even">
+<td><img src="../../media/2024-jobim-deconvolution/krafta.jpg" class="img-fluid" width="146"> | Agnieszka Kraft (Computational Epigenetics of Cancer, Swiss Institute of Bioinformatics)</td>
+</tr>
+<tr class="odd">
+<td><img src="../../media/2024-jobim-deconvolution/hugobarbot.jpeg" class="img-fluid" width="146"> | Hugo Barbot (Institut Agro Rennes-Angers, France)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="program" class="level3">
+<h3 class="anchored" data-anchor-id="program">Program</h3>
+<section id="organizers-and-scientific-committee" class="level4">
+<h4 class="anchored" data-anchor-id="organizers-and-scientific-committee">Organizers and scientific committee</h4>
+<p>Julie Aubert, Bastien Chassagnol, Marie-Agnès Dillies, Christelle Hennequet-Antier, Emeline Perthame</p>
+</section>
+</section>
+<section id="pratical-information" class="level3">
+<h3 class="anchored" data-anchor-id="pratical-information">Pratical information</h3>
+<div class="callout callout-style-simple callout-caution no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Venue</strong> : <a href="https://jobim2024.sciencesconf.org/resource/acces">Université Paul Sabatier, Toulouse, France</a></p>
+</div>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -371,12 +425,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Copié");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Copié");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
