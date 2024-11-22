@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.57">
@@ -7,9 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="">
-<meta name="dcterms.date" content="2021-11-16">
 
-<title>Sélection de variables et méthodes de déconvolution – StatOmique</title>
+<title>MANOCCA et Scimo – StatOmique</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -57,17 +56,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
   }
 }</script>
 
@@ -89,8 +88,8 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">StatOmique</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Recherche"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -118,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Basculer le mode sombre"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -127,9 +126,12 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Sélection de variables et méthodes de déconvolution</h1>
+      <h1 class="title">MANOCCA et Scimo</h1>
+            <p class="subtitle lead">Analyse de covariance multivariée et recettes de pré-traitement données omiques</p>
                                 <div class="quarto-categories">
-                <div class="quarto-category">workshop</div>
+                <div class="quarto-category">R</div>
+                <div class="quarto-category">Python</div>
+                <div class="quarto-category">webinar</div>
               </div>
                   </div>
   </div>
@@ -139,9 +141,9 @@ ul.task-list li input[type="checkbox"] {
 
       
       <div>
-      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-heading">Date de publication</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">November 16, 2021</p>
+        <p class="date">28 novembre 2024</p>
       </div>
     </div>
     
@@ -154,10 +156,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#programme-de-la-journée" id="toc-programme-de-la-journée" class="nav-link active" data-scroll-target="#programme-de-la-journée">Programme de la journée</a></li>
+  <li><a href="#manocca-une-nouvelle-approche-statistique-pour-évaluer-des-effets-sur-la-covariancecorrélation" id="toc-manocca-une-nouvelle-approche-statistique-pour-évaluer-des-effets-sur-la-covariancecorrélation" class="nav-link active" data-scroll-target="#manocca-une-nouvelle-approche-statistique-pour-évaluer-des-effets-sur-la-covariancecorrélation">MANOCCA, une nouvelle approche statistique pour évaluer des effets sur la covariance/corrélation,</a></li>
+  <li><a href="#create-your-own-recipes-steps-for-omics-data-the-scimo-package" id="toc-create-your-own-recipes-steps-for-omics-data-the-scimo-package" class="nav-link" data-scroll-target="#create-your-own-recipes-steps-for-omics-data-the-scimo-package">Create your own recipes steps for omics data: the {scimo} package,</a></li>
+  <li><a href="#informations-pratiques" id="toc-informations-pratiques" class="nav-link" data-scroll-target="#informations-pratiques">Informations pratiques</a></li>
   </ul>
 </nav>
     </div>
@@ -168,36 +172,46 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Un peu de biblio et quelques outils autour de la sélection de variables pour les données en grande dimension et les méthodes de déconvolution .</p>
-<section id="programme-de-la-journée" class="level3">
-<h3 class="anchored" data-anchor-id="programme-de-la-journée">Programme de la journée</h3>
-<ul>
-<li><p>9h30 Accueil café</p></li>
-<li><p>10h <strong>A variable selection approach for highly correlated predictors in high-dimensional data</strong> Wencan Zhu (UMR MIA-Paris, AgroParisTech, INRAE – Université Paris-Saclay, Sanofi R&amp;D)</p></li>
-</ul>
-<p>Résumé : In genomic studies, identifying biomarkers associated with a variable of interest is a major concern in biomedical research. Regularized approaches are classically used to performvariable selection in high-dimensional linear models. However, these methods can fail in highly correlated settings.<br>
-Results: We propose a novel variable selection approach called WLasso, taking these correlations into account. It consists in rewriting the initial high-dimensional linear model to remove the correlation between the biomarkers (predictors) and in applying the generalized Lasso criterion. The performance of WLasso is assessed using synthetic data in several scenarios and compared with recent alternative approaches. The results show that when the biomarkers are highly correlated, WLasso outperforms the other approaches in sparse high-dimensional frameworks.</p>
-<ul>
-<li>11h <strong>Comparaison de méthodes de déconvolution de bulk RNA-Seq pour l’étude de l’infection par la fièvre Lassa</strong> Emeline Perthame (Hub de Bioinformatique et Biostatistique, Institut Pasteur), en collaboration avec Natalia Pietrosemoli et Hélène Lopez-Maestre (Hub de Bioinformatique et Biostatistique, Institut Pasteur) et Sylvain Baize (PI de l’unité de Biologie des infections virales émergentes, Institut Pasteur)</li>
-</ul>
-<p>Résumé : On s’intéresse à un <a href="https://doi.org/10.1038/s42003-020-01543-7">jeu de données transcriptomiques dans lequel la cinétique d’infection par la fièvre Lassa est étudiée</a>. Les chercheurs s’intéressent à la comparaison de la pénétrance du virus dans différents tissus et organes. En particulier, ils s’intéressent à l’inférence des proportions de types cellulaires pour différentes souches du virus. Dans cet exposé, nous présenterons brièvement les données et leur plan d’expériences, puis nous présenterons une comparaison des différentes méthodes de déconvolution que nous avons appliquées (dont CIBERSORT, méthode vraisemblablement la plus connue/utilisée) et enfin des éléments d’interprétation des résultats de ces analyses. Nous verrons notamment que la méthode de normalisation des comptages, ainsi que la qualité de la matrice de signature caractérisant les types cellulaires ont un impact considérable sur les résultats.<br>
-- 12-13h30 Pause déjeuner<br>
-- 13h30 <strong>Medepir - un guide pour la déconvolution non-supervisée de données de méthylation de l’ADN</strong> Clémentine Decamps (TIMC-IMAG, UMR 5525, Univ. Grenoble Alpes, CNRS)</p>
-<p>Résumé : En partant du constat qu’il n’existait pas dans la littérature de benchmark de ces méthodes, nous nous sommes lancés dans leur comparaison, et dans l’évaluation de l’intérêt du pré-traitement des données à travers un “data challenge” organisé en 2018. Des suites de ce travail, nous avons tiré un package, Medepir, regroupant les connaissances acquises sur des jeux de simulations. Au-delà de la problématique initiale, se pose ensuite la question du benchmarking des méthodes de déconvolution en général, de la reproductibilité et de l’intégration des nouveaux jeux de données / méthodes.<br>
-- 14h30 <strong>Retour d’expérience sur l’utilisation de l’algorithme CIBERSORT pour l’estimation de l’abondance de populations cellulaires à partir de données transcriptomiques</strong> Boris Hejblum (Inserm U1219 Bordeaux Population Health, Inria BSO, Université de Bordeaux)</p>
-<p>Résumé : Application de Cibersort dans le cadre d’un essai clinique (COVERAGE Immuno) de suivi de patients COVID où nous disposons à la fois de données de transcriptomiques et de données de populations cellulaires.</p>
-<section id="quelques-références" class="level4">
-<h4 class="anchored" data-anchor-id="quelques-références">Quelques références</h4>
-<p><strong>WLasso:</strong> <a href="https://cran.r-project.org/package=WLasso/">package R WLasso</a><br>
-W. Zhu, C. Levy-Leduc, N. Ternes. <strong>A variable selection approach for highly correlated predictors in high-dimensional genomic data.</strong> <a href="https://arxiv.org/abs/2007.10768">arXiv:2007.10768</a></p>
-<p><strong>Medepir:</strong> <a href="https://github.com/bcm-uga/medepir">package R medepir</a><br>
-Decamps, C., Privé, F., Bacher, R. et al.&nbsp;<strong>Guidelines for cell-type heterogeneity quantification based on a comparative analysis of reference-free DNA methylation deconvolution software.</strong> <em>BMC Bioinformatics</em> 21, 16 (2020). <a href="https://doi.org/10.1186/s12859-019-3307-2">doi.org/10.1186/s12859-019-3307-2</a></p>
-<p>Baillet, N., Reynard, S., Perthame, E. et al.&nbsp;Systemic viral spreading and defective host responses are associated with fatal Lassa fever in macaques. Commun Biol 4, 27 (2021). <a href="https://doi.org/10.1038/s42003-020-01543-7">doi.org/10.1038/s42003-020-01543-7</a><br>
-Shen-Orr, S., Tibshirani, R., Khatri, P. et al.&nbsp;<strong>Cell type–specific gene expression differences in complex tissues.</strong> <em>Nat Methods</em> 7, 287–289 (2010). <a href="https://doi.org/10.1038/nmeth.1439">doi.org/10.1038/nmeth.1439</a></p>
-<p><strong>Cibersort:</strong> Newman, A.M., Steen, C.B., Liu, C.L. et al.&nbsp;<strong>Determining cell type abundance and expression from bulk tissues with digital cytometry.</strong> <em>Nat Biotechnol</em> 37, 773–782 (2019). <a href="https://doi.org/10.1038/s41587-019-0114-2">doi.org/10.1038/s41587-019-0114-2</a></p>
-
-
+<p>Ce jeudi 18 novembre, nous aurons le plaisir d’avoir deux présentations: une sur une nouvelle méthode d’analyse de covariance multivariée <code>MANOCCA</code> et l’autre sur le package R <code>{scimo}</code>.</p>
+<section id="manocca-une-nouvelle-approche-statistique-pour-évaluer-des-effets-sur-la-covariancecorrélation" class="level3">
+<h3 class="anchored" data-anchor-id="manocca-une-nouvelle-approche-statistique-pour-évaluer-des-effets-sur-la-covariancecorrélation">MANOCCA, une nouvelle approche statistique pour évaluer des effets sur la covariance/corrélation,</h3>
+<p><a href="https://research.pasteur.fr/en/member/christophe-boetto/">Christophe Boetto</a>, PhD student in biostatistics and genetic epidemiology, Pasteur Institute</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../media/2024-11-24-webinar/manocca.jpeg" class="img-fluid figure-img" width="200"></p>
+<figcaption>From Boetto et al., 2024</figcaption>
+</figure>
+</div>
+<p>La présentation détaillera la méthode statistique <code>MANOCCA</code> (Multivariate ANalysis of Conditional CovAriance) développé pendant ma thèse. Ce test évalue l’effet d’un prédicteur d’intérêt noté X (Age, Sexe, BMI, tabagisme, variant génétique, …) sur la covariance d’une variable dépendante multivariée noté Y (niveaux de métabolites, expression de gènes, espèce microbiennes, …) tout en ajustant pour des covariables C. Le test évalue donc le modèle Cov(Y) ~ X + C pour n’importe quel type de prédicteur binaire, catégoriel ou continue. Le travail a donné lieu à deux cas d’applications, le premier en microbiologie pour caractériser les changements d’intéractions de bactéries en fonction de facteurs environnementaux. Et le second dans la génétique du métabolisme pour évaluer des variants génétiques impactant la co-régulation de métabolites.</p>
+<p>Reference :</p>
+<p>Christophe Boetto, Arthur Frouin, Léo Henches, Antoine Auvergne, Yuka Suzuki, Etienne Patin, Marius Bredon, Alec Chiu, Milieu Interieur Consortium, Sriram Sankararaman, Noah Zaitlen, Sean P Kennedy, Lluis Quintana-Murci, Darragh Duffy, Harry Sokol, Hugues Aschard, MANOCCA: a robust and computationally efficient test of covariance in high-dimension multivariate omics data, <em>Briefings in Bioinformatics</em>, Volume 25, Issue 4, July 2024, bbae272, <a href="https://doi.org/10.1093/bib/bbae272" class="uri">https://doi.org/10.1093/bib/bbae272</a></p>
+<p>Available code in Python and R <a href="https://gitlab.pasteur.fr/statistical-genetics/manocca">here</a></p>
 </section>
+<section id="create-your-own-recipes-steps-for-omics-data-the-scimo-package" class="level3">
+<h3 class="anchored" data-anchor-id="create-your-own-recipes-steps-for-omics-data-the-scimo-package">Create your own recipes steps for omics data: the {scimo} package,</h3>
+<p><a href="https://abichat.github.io/">Antoine Bichat</a>, Laboratoires Servier</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../media/2024-11-24-webinar/scimo.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="200"></p>
+</figure>
+</div>
+<p>The rise of advanced high-throughput sequencing technologies has led to a massive increase in the production of omics data, encompassing genomics, transcriptomics, proteomics, metagenomics, and more. To effectively explore and analyze omics data, specialized preprocessing techniques are essential, including feature normalization, selection, and aggregation. However, many of these specific methods were not initially available in the original ‘recipes’ package. As a response, we have developed an extension package, <code>{scimo}</code>, designed to seamlessly integrate these techniques into the <code>tidymodels</code> ecosystem. <code>{scimo}</code> offers a comprehensive suite of preprocessing steps tailored for omics data analysis, while remaining adaptable to other data types. During this presentation, we will showcase the capabilities of <code>{scimo}</code> and provide insights into creating your own <code>{recipes}</code> extension package. Additionally, we will discuss strategies to navigate the potential pitfalls that we have encountered during the development process.</p>
+<p>Package available on <a href="https://github.com/abichat/scimo">Github</a> and <a href="https://cran.r-project.org/package=scimo">CRAN</a></p>
+</section>
+<section id="informations-pratiques" class="level3">
+<h3 class="anchored" data-anchor-id="informations-pratiques">Informations pratiques</h3>
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Ce sera un webinaire, une fois n’est pas coutume.</p>
+</div>
+</div>
+</div>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -388,12 +402,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Copié");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Copié");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
