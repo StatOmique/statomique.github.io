@@ -8,7 +8,7 @@
 
 <meta name="author" content="">
 
-<title>New horizons in Deconvolving Bulk Transcriptomic Samples – StatOmique</title>
+<title>pyPLNmodels, idiffomix – StatOmique</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -126,11 +126,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">New horizons in Deconvolving Bulk Transcriptomic Samples</h1>
-            <p class="subtitle lead">Beyond bulk RNA-Seq</p>
+      <h1 class="title">pyPLNmodels, idiffomix</h1>
+            <p class="subtitle lead">Analyse de données de comptage et intégration de données omiques</p>
                                 <div class="quarto-categories">
-                <div class="quarto-category">symposium</div>
-                <div class="quarto-category">conference</div>
+                <div class="quarto-category">workshop</div>
               </div>
                   </div>
   </div>
@@ -142,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Date de publication</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">4 avril 2024</p>
+        <p class="date">11 mars 2025</p>
       </div>
     </div>
     
@@ -158,11 +157,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a>
+  <li><a href="#program" id="toc-program" class="nav-link active" data-scroll-target="#program">Program</a>
   <ul class="collapse">
-  <li><a href="#program" id="toc-program" class="nav-link" data-scroll-target="#program">Program</a></li>
   <li><a href="#informations-pratiques" id="toc-informations-pratiques" class="nav-link" data-scroll-target="#informations-pratiques">Informations pratiques</a></li>
-  <li><a href="#sponsors" id="toc-sponsors" class="nav-link" data-scroll-target="#sponsors">Sponsors</a></li>
+  <li><a href="#sponsor" id="toc-sponsor" class="nav-link" data-scroll-target="#sponsor">Sponsor</a></li>
   <li><a href="#organisation-et-comité-scientifique" id="toc-organisation-et-comité-scientifique" class="nav-link" data-scroll-target="#organisation-et-comité-scientifique">Organisation et comité scientifique</a></li>
   </ul></li>
   </ul>
@@ -175,77 +173,111 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><img src="../../media/2024-jobim-deconvolution/bandeauJOBIM2024.png" class="img-fluid" width="240"> Ce mini-symposium se tiendra dans le cadre de la conférence <a href="https://jobim2024.sciencesconf.org/">JOBIM 2024</a>. Il est soutenu par le <a href="https://www.gdr-bim.cnrs.fr/">GDR BIMMM</a>, l’institut de convergence <a href="https://research.pasteur.fr/en/program_project/inception/">Inception</a>, le <a href="https://www.lpsm.paris/">LPSM</a> et le <a href="https://www.lip6.fr/">LIP6</a>.</p>
-<section id="motivation" class="level2">
-<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
-<p>Although bulk transcriptomic analyses have greatly contributed to a better understanding of complex diseases, their accuracy is usually hindered by the heterogeneous cellular composition of most biological samples. On the other hand, single-cell RNASeq analysis are expensive and time-consuming, while they suffer from a variety of intrinsic statistical limitations, notably a subsequent reduced depth and coverage of the RNA library.</p>
-<p>To address the limitations of these physical approaches, a vast array of computational deconvolution methods has been designed to automatically infer the characteristics of the distinct subcomponents that make up tissues. The most typical approach consists of inferring the relative abundances of the cellular populations by leveraging reference samples of physically purified populations. Briefly, the deconvolution algorithms assume a linear relationship between the resulting, total ‘bulk’ expressions of transcripts (depicted as the observations in a regression framework), and the expression of transcripts in purified cell populations. The unknown cellular ratios to retrieve are subsequently the individual contributions of subpopulations to the “pool of transcripts” within each sample.</p>
-<p>However, gold-standard deconvolution algorithms suffer from a variety of common limitations. While a jungle of methods has been proposed, there’s no real consensus nor practical solution to solve the following critical issues: their underperformance at differentiating closely related or rare cell populations, the lack of consistency characterizing the outputs returned by these methods and the commonly observed discrepancy observed in real-word conditions between the ratios estimated through these numerical approaches, and the ones measured using physical methods, such as mass cytometry experiences.</p>
-<p>Finding potential solutions to these problems will promote new methodological advances that will have direct impact on the research of versatile and multi- faceted diseases, such as cancer or auto-immune diseases. Indeed, by enhancing the characterization of complex and critical tissues and niches, such as the tumoral micro-environment in a non-destructive fashion, these cutting-edge models would streamline the unravelling of the interactions occurring within a variety of cell populations, paramount to maintain the homeostasis of biological systems.</p>
-<p><img src="../../media/2024-jobim-deconvolution/quanti-feat.jpg" class="img-fluid"></p>
-<section id="program" class="level3">
-<h3 class="anchored" data-anchor-id="program">Program</h3>
+<section id="program" class="level2">
+<h2 class="anchored" data-anchor-id="program">Program</h2>
 <ul>
-<li><strong>14h00-14h10</strong></li>
+<li><p><strong>9h30-10h00</strong> Accueil - café</p></li>
+<li><p><strong>10h00-10h15</strong> Opening presentation</p></li>
+<li><p><strong>10h15-11h</strong> Bastien Batardière, INRAE, AgroParisTech, MIA-Paris-Saclay, <strong><code>{pyPLNmodels}</code>: A Python package to analyze multivariate high-dimensional count data</strong></p></li>
 </ul>
-<p>Introduction Emeline Perthame et Bastien Chassagnol</p>
+<p><code>{pyPLNmodels}</code> est une bibliothèque Python pour l’analyse de données de comptage multivariées à l’aide du modèle Poisson Lognormal (PLN) et ses variantes. Conçue pour traiter de grands jeux de données, elle permet d’extraire des informations clés à partir de données complexes. Elle est particulièrement adaptée à l’analyse des données RNA-seq, en normalisant les comptes et en identifiant les relations entre gènes.</p>
+<p>Fonctionnalités principales: Elle propose une modélisation avancée des données de comptage, l’estimation des paramètres clés tels que les coefficients de régression et la covariance, ainsi que la normalisation des données pour une meilleure interprétation. L’analyse des corrélations et des poids des covariables est également intégrée, avec une capacité d’adaptation aux données de grande dimension.</p>
+<p>Modèles implémentés: PLN est le modèle de base pour l’analyse des données de comptage. PlnPCA permet une réduction de dimension via l’ACP probabiliste adaptée aux données de comptage. ZIPln prend en compte l’inflation de zéros pour mieux modéliser des données comportant de nombreuses valeurs nulles.</p>
+<p><a href="https://pypi.org/project/pyPLNmodels/">site web</a></p>
 <ul>
-<li><strong>14h10-14h40</strong></li>
+<li><strong>11h00-11h20</strong></li>
 </ul>
-<p><img src="../../media/2024-jobim-deconvolution/verapancaldi.jpg" class="img-fluid" width="100"> <a href="https://www.crct-inserm.fr/annuaire/vera-pancaldi/">Vera Pancaldi</a> CRCT, INSERM – Université de Toulouse, France</p>
-<p><strong>Deconvolution for clinical applications: a quest to make sense of reference-based deconvolution on tumour tissue samples</strong></p>
-<p>Despite the increasing popularity of single-cell technologies, their price, complicated protocols and uncertain biases make it an unlikely option to be applied routinely in clinical practice. Especially when confronted with tumour samples, capturing cellular heterogeneity as well as the presence of specific subtypes is key to correctly stratify patients and personalise their treatment. Deconvolution of cell type proportions offers an interesting solution that has been widely explored in the last few years. Despite the large and growing number of methods and signatures generated, it remains very hard to define consensus between them and benchmarks are abundant but not trivial. In our lab we are interested in practical applications of these methods in immuno-oncology and we have therefore strived to perform benchmarks and generate data that would help us find some order in the sea of methods and signatures that exist. In particular, we have generated in-vitro data to generate some of the phenotypes that we aim to identify in patients under controlled conditions. Meanwhile, we have strived to develop methods that deconvolve the presence of specific cell-states, rather than cell-types, rarely captures by in-vitro or in-silico benchmark datasets.</p>
+<p>El Hacene DJAOUT, LPSM, Sorbonne Université, France</p>
+<p><strong><code>{VaRaPS}</code> : Un package Python pour l’estimation des proportions de variants SARS-CoV-2 à partir de données de séquençage groupées</strong></p>
+<p>Résumé : Je présenterai <code>{VaRaPS}</code>, un package Python conçu pour optimiser l’estimation des proportions de variants SARS-CoV-2 à partir de données de séquençage d’eaux usées. Cette implémentation améliore significativement les performances des méthodes existantes (Freyja, LCS, VirPool), avec des gains en vitesse allant jusqu’à 3570x pour l’optimisation et 103x pour l’extraction des données, tout en maintenant ou améliorant la précision des estimations. La présentation pourra aussi inclure une démonstration du logiciel.</p>
+<p>Résumé détaillé:</p>
+<p>L’épidémiologie basée sur les eaux usées s’est révélée être un outil puissant pour la surveillance des variants du SARS-CoV-2. Nous présentons <code>{VaRaPS}</code> (Variants Ratios from Pooled Sequencing), un package Python qui optimise les algorithmes statistiques fondamentaux pour estimer efficacement les proportions de lignées SARS-CoV-2 à partir de données de séquençage groupées d’eaux usées. <code>{VaRaPS}</code> intègre un algorithme personnalisé d’identification des variants, spécialement conçu pour les données de séquençage groupées, exploitant les informations de mutations au niveau des lectures et utilisant des représentations matricielles creuses pour une gestion efficace des données.</p>
+<p>VaRaPS améliore considérablement l’efficacité computationnelle des méthodes existantes (Freyja, LCS et VirPool), atteignant des facteurs d’accélération jusqu’à 3 570 fois pour les temps d’optimisation et 103 fois pour l’extraction des données, tout en maintenant ou améliorant la précision des estimations. Le package intègre un paramètre de taux d’erreur pour prendre en compte les erreurs de séquençage, affinant davantage la précision statistique. Les analyses comparatives utilisant des jeux de données synthétiques démontrent la performance supérieure de VaRaPS dans l’estimation de la prévalence des lignées, avec une précision et une cohérence améliorées pour toutes les méthodes implémentées.</p>
+<p>L’architecture modulaire et la conception orientée utilisateur du package facilitent son application dans des contextes réels. <code>{VaRaPS}</code> représente une avancée significative dans les outils bioinformatiques et biostatistiques pour l’analyse des lignées virales, offrant une solution robuste et efficace pour l’épidémiologie basée sur les eaux usées dans l’ère post-pandémique.</p>
 <ul>
-<li><strong>14h40-15h00</strong></li>
+<li><strong>11h20-11h40</strong></li>
 </ul>
-<p><img src="../../media/2024-jobim-deconvolution/hugobarbot.jpeg" class="img-fluid" width="100"> <a href="">Hugo Barbot</a> IRMAR – Université de Rennes - France</p>
-<p><strong>Multi-omic statistical inference of cellular heterogenetity</strong></p>
-<p>Cellular heterogeneity in biological tissues reflects progression of disease state and is therefore useful for improved diagnostic and prognosis. Cell deconvolution is a common approach to unravel the heterogeneous molecular profiles observed in bulk tissues. So far, cellular deconvolution assumes that bulk omic profiles result from weighted sums of so-called signature cell-specific omic profiles, weights being the unknown proportions of those cell types. Consistently, most statistical methods used for cellular deconvolution are based on extensions of the Ordinary Least Squares (OLS) optimization algorithm, under nonnegativity and sum-to-one constraints on those unknown mixing coefficients. Using OLS make implicit assumptions which are highly questionable when applied to bulk molecular profile. Indeed, strong violations of those assumptions may be due to the instrinsic nature of omics data or to the dependence structure induced by the gene regulatory network. The goal of this work is to provide a well defined statistical framework that respects the inherent characteristics of biological data for deconvolution, using multi-omic data. Multi-omic data integration for cellular deconvolution aims at leveraging complementary viewpoints on cellular heterogeneity. Many simultaneous optimization strategies are considered, either based on constrained and weighted maximum likelihood or on gene selection. An extensive comparative study of cell deconvolution performance with leading single or multi-omic methods is conducted on benchmark data and using nine cell types commonly found in PDAC (pancreatic cancer). Results confirm both the gain in a multi-omic integration approach and in the use of ad-hoc probability distributions for each -omic data type.</p>
+<p>Maximilien Colange, Abdelkader Behdenna, Epigene Labs, France</p>
+<p><strong>Bridging the Gap Between R and Python in Bulk Transcriptomic Data Analysis with InMoose</strong></p>
+<p><em>Work and feedback around methylation</em> - <strong>11h40-12h00</strong></p>
+<p>Valentin Coste,</p>
+<p><strong>Microarray vs NGS</strong></p>
+<p>Chez le bovin, la méthylation de l’ADN pourrait potentiellement être utilisée pour prédire des phénotypes. Il existe plusieurs technologies permettant d’analyser cette dernière, chacune ayant certains points forts et des points faibles. Parmi celle-ci, l’équipe utiliser principalement des méthodes de séquençages par RRBS, et depuis peu des données obtenues par Micro-array. L’objectif de la présentation sera de présenter les types de données qui sont générées, et de montrer quelques comparaisons entre des données produites par séquençages ou par Micro-array.</p>
 <ul>
-<li><strong>15h00-15h15</strong></li>
+<li><strong>12h00-12h15</strong></li>
 </ul>
-<p><img src="../../media/2024-jobim-deconvolution/francescafinotello.jpg" class="img-fluid" width="100"> <a href="https://computationalbiomedicinegroup.github.io/">Francesca Finotello</a> Institute of Molecular Biology – Université d’Innsbruck, Autriche</p>
-<p><strong>Next-generation cell-type deconvolution of transcriptomic data</strong></p>
-<p>The investigation of the cellular composition and architecture of tissues is key to understanding mechanisms that underlie tissue function and its disruption during disease. Deconvolution is a computational technique used to quantify the cellular composition of complex tissues profiled with transcriptomics technologies. While first-generation deconvolution methods could disentangle only a handful of cell types (mainly human immune cells), second-generation methods can be trained using single-cell transcriptomics data to learn the transcriptional “fingerprints” of any cell type, thereby possibly extending deconvolution to any tissue, disease context, and organism of interest. Moreover, these approaches can now be applied to spatial transcriptomics data, revealing the architecture of tissues and the spatial distribution of their cellular constituents. In this talk, I will show how different types of transcriptomic data can be analyzed deconvoluted to chart the cellular organization of complex tissues in health and disease, with a special focus on next-generation deconvolution techniques.</p>
+<p>Luc Jouneau</p>
+<p><strong><code>{edgeR}</code>: Une solution pour l’analyse RRBS d’une expérience à 2 facteurs&nbsp;?</strong></p>
+<p>En 20xx, dans un post sur un forum, Gordon Smyth montre qu’il est possible d’utiliser <code>{edgeR}</code> pour l’analyse de données RRBS. Depuis, son équipe a publié <a href="https://f1000research.com/articles/6-2055/v2">un article à ce sujet</a> et a même intégré ce cas d’étude dans la <a href="https://bioconductor.org/packages/release/bioc/vignettes/edgeR/inst/doc/edgeRUsersGuide.pdf">documentation et les fonctions de son package, section 4.8</a>. En pratique, quelles sont les atouts et inconvénients de l’application de <code>{edgeR}</code> sur ce type de données&nbsp;?</p>
 <ul>
-<li><strong>15h15-15h30</strong></li>
+<li><strong>12h15-12h30</strong></li>
 </ul>
-<p><img src="../../media/2024-jobim-deconvolution/Merotto_Lorenzo.jpg" class="img-fluid" width="100"> <a href="">Lorenzo Merotto</a> Institute of Molecular Biology – Université d’Innsbruck, Autriche</p>
-<p><strong>Benchmarking second-generation deconvolution tools with omnideconv</strong></p>
-<p>Deconvolution methods are computational techniques that infer cell-type fractions from bulk RNA sequencing data leveraging cell-type-specific transcriptomic signatures. Second-generation tools, in particular, learn how to quantify different cell types by training their models with an annotated single-cell RNA-seq atlas, extending the applicability of deconvolution to a much broader panel of cell types, tissues, and organisms. This flexibility, however, poses major challenges in their usage and evaluation. Therefore, we developed omnideconv (omnideconv.org), an ecosystem of resources that simplifies the usage and benchmarking of second-generation deconvolution tools. These include a dedicated R package to access several deconvolution tools in a unified and simplified manner; an interactive web app for the exploration of deconvolution signatures and results; a curated compendium of validation datasets from different organisms; 4) a simulator of artificial RNA-seq datasets with controlled composition; and a reusable pipeline for the systematic benchmarking of second-generation deconvolution tools. Building upon these unique methodologies, we extensively benchmarked eight state-of-the-art deconvolution methods under various scenarios that reproduce real-life applications, shedding light on methods’ strengths, weaknesses, and complementarities. In this talk, I will introduce the omnideconv collection of tools and present the framework and results of our benchmarking study.</p>
+<p>Anne Frambourg</p>
+<p><strong>Evaluation des résultats sur une analyse à 2 facteurs avec le package <code>{DSS}</code></strong></p>
+<p>Application de la méthode Dispersion Shrinkage for Sequencing data (DSS, Park and Wu, 2016), fondée sur un modèle beta-binomial, dans le cadre du projet BoSexDim qui a pour ambition entre autres d’identifier les dimorphismes sexuels précoces chez l’embryon de bovin et d’étudier comment ces dimorphismes sont modifiés en réponse à l’environnement embryonnaire (vitro/vivo). Plusieurs modèles ont été considérés pour l’analyse à deux facteurs sexe et milieu. Un effet d’interaction entre les deux effets ayant été identifié, le modèle avec variables concaténées sexe:milieu a été retenu car il permet de réaliser toutes les analyses différentielles entre chaque sous-catégorie (Femelle – Vivo, Femelle – Vitro, Mâle – Vivo, Mâle – Vitro).</p>
 <ul>
-<li><strong>15h30-15h50</strong></li>
+<li><strong>Lunch break</strong></li>
 </ul>
-<p><img src="../../media/2024-jobim-deconvolution/akraft.jpg" class="img-fluid" width="100"> <a href="">Agnieszka Kraft</a> Computational Cancer Genomics Lab - ETH Zürich - Switzerland</p>
-<p><strong>Unsupervised Deciphering of Malignant Cell Heterogeneity in Bulk Tumor RNA-Sequencing Data with CDState</strong></p>
-<p>Intratumor transcriptional heterogeneity poses a significant challenge in cancer treatment due to limited understanding of tumor cell types, states, and their implications for therapy resistance. While single-cell sequencing has offered insights into tumor composition across various cancer types, its routine clinical application remains impractical. In contrast, bulk RNA sequencing is more feasible but lacks effective methods for identifying subpopulations of malignant cells without relying on marker genes or reference single-cell data. The effectiveness of these methods heavily depends on the availability of an appropriate reference, which continues to pose a significant challenge. To address these limitations, we introduce CDState: an unsupervised method for predicting and enumerating malignant cell subpopulations using bulk tumor data. CDState employs a Nonnegative Matrix Factorization model extended with a sum-to-one constraint on weights and kurtosis-based optimization of source gene expression, to disentangle bulk data into distinct cell states. Validation of CDState using simulated and “bulkified” data from publicly available single-cell RNA sequencing datasets showcases its reliability and accuracy in recovering previously discovered cancer cell states. Based on these results, we apply CDState to 29 TCGA datasets to provide a comprehensive overview of malignant cells’ transcriptional profiles on a pan-cancer scale.</p>
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Afternoon presentations will be in english.</p>
+</div>
+</div>
+</div>
 <ul>
-<li><strong>15h50-16h00</strong> Conclusion</li>
+<li><strong>14h00 - 14h50</strong> Koyel Majumdar, Florence Jaffrézic, Andrea Rau, <strong>Isobel Claire Gormley</strong>, Thomas Brendan Murphy, <strong>Integrated differential analysis of multi-omics data using a joint mixture model: idiffomix</strong></li>
 </ul>
-<p>Une version <code>.pdf</code> du programme est disponible <a href="https://jobim2024.sciencesconf.org/data/2A_english_booklet_symposium_EN.pdf">ici</a>.</p>
-</section>
+<p>Gene expression and DNA methylation are two interconnected biological processes and understanding their relationship is important in advancing understanding in diverse areas, including disease pathogenesis, environmental adaptation, developmental biology, and therapeutic responses. Differential analysis, including the identification of differentially methylated cytosine-guanine dinucleotide (CpG) sites (DMCs) and differentially expressed genes (DEGs) between two conditions, such as healthy and affected samples, can aid understanding of biological processes and disease progression. Typically, gene expression and DNA methylation data are analysed independently to identify DMCs and DEGs which are further analysed to explore relationships between them. Such approaches ignore the inherent dependencies and biological structure within these related data.</p>
+<p>A joint mixture model is proposed that integrates information from the two data types at the modelling stage to capture their inherent dependency structure, enabling simultaneous identification of DMCs and DEGs. The model leverages a joint likelihood function that accounts for the nested structure in the data, with parameter estimation performed using an expectation-maximisation algorithm.</p>
+<p>Performance of the proposed method, <code>{idiffomix}</code>, is assessed through a thorough simulation study and application to a publicly available breast cancer dataset. Several genes, identified as non-differentially expressed when the data types were modelled independently, had high likelihood of being differentially expressed when associated methylation data were integrated into the analysis. The idiffomix approach highlights the advantage of an integrated analysis via a joint mixture model over independent analyses of the two data types; genome-wide and cross-omics information is simultaneously utilised providing a more comprehensive view.</p>
+<ul>
+<li><strong>14h50 - 15h10</strong> Ekaterina Tomilina, MaIAGE (Dynenvie) and GABI (Gibbs), INRAE, Jouy-en-Josas, <strong>Likelihood-based partial correlation Gaussian copula network inference for heterogeneous multi-omics data</strong></li>
+</ul>
+<p>Large-scale heterogeneous data integration for network inference is a key methodological challenge, especially in the context of multi-omic data analysis. The heterogeneous nature can be handled by assuming a Gaussian copula model, where the biological network can be assimilated to the partial correlations of a latent Gaussian vector. The estimation of the corresponding precision matrix is realized by combining the graphical Lasso (Friedman, 2008) with a semi-parametric pairwise estimation of the copula correlation matrix (Tomilina et al., 2024). We present a simulation study by comparing the performance of the method above against a moment-based approach (Zhang et al., 2021). Then, we show promising application results on an ICGC data set related to breast cancer in the US.</p>
+<ul>
+<li><strong>15h10 - 15h30</strong> Yanis Asloudj, <strong>EVE, a modular framework for ensemble clustering in -omics data science, and more.</strong></li>
+</ul>
+<p>In the era of big data analytics and personalized medicine, clustering analyses have become a cornerstone of -omics bioinformatics. Shortly, clustering analyses attempt to classify several entities into fewer homogeneous groups, by leveraging a set of measurements taken from these entities. For instance, in bulk oncology transcriptomics, clustering analyses are frequently conducted to identify groups (or «&nbsp;clusters&nbsp;») of patients, inflicted with similar cancer subtypes, according to the gene expression measured in their tumor. Because of their importance in data science as a whole, numerous clustering algorithms have been developed since the last century. In the field of single-cell transcriptomics (or «&nbsp;scRNA-seq&nbsp;») only, more than 300 algorithms have been developed already. Because each of these algorithms exploits different aspects of the data, the clusters they predict can vary drastically.</p>
+<p>To ensure that the results of a clustering analysis were robust to the algorithm used, ensemble clustering methods were developed. Succinctly, these methods applied multiple clustering algorithms on the same dataset, and they integrated the results of each algorithm so as to generate a single robust prediction of clusters.</p>
+<p>In a previous work, we had developed our own scRNA-seq ensemble clustering algorithm, named <code>{scEVE}</code>. Unlike state-of-the-art algorithms, <code>{scEVE}</code> was able to address two main conceptual challenges in clustering&nbsp;: it was able (1) to quantify the uncertainty of its predictions, and (2) to generate clustering results with multiple resolutions. To do so, our algorithm first applied multiple scRNA-seq clustering methods on a dataset to predict a large pool of base clusters. From this pool, robust clusters (i.e.&nbsp;clusters predicted by multiple methods) were predicted, and their robustness was quantified by using basic properties from graph and set theories. Finally, these robust clusters were biologically characterized, and this procedure was repeated recursively on every characterized cluster – so long as the robustness of the analysis kept improving.</p>
+<p>While some steps of our algorithm were specific to scRNA-seq measurements – namely, the prediction of base clusters, and the biological characterization of robust clusters – we believed that the main contributions of <code>{scEVE}</code> (i.e.&nbsp;the robustness quantification and the multi-resolution recursive clustering) were valuable for any type of clustering problem. Thus, to facilitate the utilization of these contributions, we have now developed the EVE framework, which we have implemented in an R package available on Github.</p>
+<p>Briefly, the EVE framework is a modular ensemble clustering framework, that allows developers to easily replace the single-cell specific functions we have set prior to (and after) the identification of robust clusters. By replacing these functions with ones developed for bulk transcriptomics data (for example), one can easily conduct a bulk RNA-seq clustering analysis with uncertainty values and multiple resolutions. Consequently, we expect that any data scientist interested in clustering will benefit from the modularity our framework.</p>
+<p>As of today, we have two research perspectives ourselves, that capitalize on this novel clustering framework. First, we plan on measuring the effects of individual framework components (e.g.&nbsp;the methods used to predict base clusters) on clustering results. Secondly, we would like to investigate the usefulness of our framework in answering more diverse biological problems (e.g.&nbsp;multi-omics analyses).</p>
+<ul>
+<li><p><strong>15h30 - 16h00</strong> <strong>Coffee break</strong></p></li>
+<li><p><strong>16h00 - 16h30</strong> Marie Chion, <strong>ProteoBayes: a Bayesian framework for differential proteomics analysis</strong></p></li>
+</ul>
+<p>This work introduces a Bayesian hierarchical model for mass spectrometry-based differential proteomics analysis, addressing missing values, peptide correlations and uncertainty quantification. Unlike existing approaches that rely on moderated variance estimates, ProteoBayes leverages conjugate priors to enable direct posterior sampling without costly MCMC methods. Applied to real proteomics data, it provides a more intuitive and comprehensive quantification of the uncertainty around peptide intensity differences.</p>
+<ul>
+<li><strong>16h30 - 17h00</strong> Szymon Urbas, Maynooth University, Ireland, <strong>Bayesian probabilistic partial least squares (BPLS)</strong></li>
+</ul>
+<p>I will introduce a statistical model that emulates the desirable properties of partial least squares regression whilst enabling principled uncertainty quantification, and which allows for various model-based modifications. The model can be used in univariate and multivariate regression/prediction problems involving high-dimensional sets of covariates. The model is implemented in the R package <code>{bplsr}</code> available on CRAN.</p>
+<ul>
+<li><strong>17h00 - 17h15</strong> Closing</li>
+</ul>
 <section id="informations-pratiques" class="level3">
 <h3 class="anchored" data-anchor-id="informations-pratiques">Informations pratiques</h3>
-<p>Le mini-symposium aura lieu sur le site de la conférence JOBIM 2024.</p>
+<p>Le mini-symposium aura lieu sur le campus AgroParisSaclay.</p>
 <div class="callout callout-style-simple callout-tip no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><strong>Date</strong> : <strong>Jeudi 27 juin de 14h à 16h</strong></p>
-<p><strong>Venue</strong> : <a href="https://jobim2024.sciencesconf.org/resource/acces">Université Paul Sabatier, Toulouse, France</a></p>
-<p>L’accès sur site sera réservé aux personnes inscrites à la conférence JOBIM 2024.</p>
-<p>Il sera également possible de suivre à distance moyennant une inscription en mode visio (10 euros). Plus d’informations sur les inscriptions <a href="https://jobim2024.seminaire.inrae.fr/formulaires/inscription">ici</a>.</p>
+<p><strong>Date</strong> : <strong>Mardi 11 mars de 9h30 à 17h</strong></p>
+<p><strong>Venue</strong> : <a href="https://www.agroparistech.fr/en/visiting-our-school">Campus Agro Paris Saclay, Palaiseau, France</a></p>
+<p>L’accès sur site sera réservé aux personnes inscrites.</p>
 </div>
 </div>
 </div>
 </section>
-<section id="sponsors" class="level3">
-<h3 class="anchored" data-anchor-id="sponsors">Sponsors</h3>
+<section id="sponsor" class="level3">
+<h3 class="anchored" data-anchor-id="sponsor">Sponsor</h3>
 <p><img src="../../media/LOGO-GDR_BIMMM.png" class="img-fluid" width="398"></p>
-<p><img src="../../media/2024-jobim-deconvolution/InceptionCoul_Big.png" class="img-fluid" width="200"> <img src="../../media/2024-jobim-deconvolution/INSTITUT_PASTEUR_LOGO_2020.jpg" class="img-fluid" width="200"></p>
-<p><img src="../../media/2024-jobim-deconvolution/Sciences_SU.png" class="img-fluid" width="200"> <img src="../../media/2024-jobim-deconvolution/logo_lip6.png" class="img-fluid" width="200"> <img src="../../media/2024-jobim-deconvolution/logo_LPSM.jpg" class="img-fluid" width="200"></p>
 </section>
 <section id="organisation-et-comité-scientifique" class="level3">
 <h3 class="anchored" data-anchor-id="organisation-et-comité-scientifique">Organisation et comité scientifique</h3>
@@ -256,10 +288,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-body-container">
 <p><strong>Julie Aubert</strong>, Université Paris-Saclay, AgroParisTech, INRAE, UMR MIA Paris-Saclay, Paris.</p>
-<p><strong>Bastien Chassagnol</strong>, Sorbonne Université, CNRS, Laboratoire de probabilités, statistique et modélisation (LPSM), Paris.</p>
-<p><strong>Marie-Agnès Dillies</strong>, Institut Pasteur, Hub de Bioinformatique et Biostatistique, Paris.</p>
 <p><strong>Christelle Hennequet-Antier</strong>, Université Paris-Saclay, INRAE, BioinfOmics, MIGALE Bioinformatics Facility, Jouy-en-Josas.&nbsp;</p>
-<p><strong>Emeline Perthame</strong>, Institut Pasteur, Hub de Bioinformatique et Biostatistique, Paris.</p>
 </div>
 </div>
 </div>
