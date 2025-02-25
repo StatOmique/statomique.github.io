@@ -8,7 +8,7 @@
 
 <meta name="author" content="">
 
-<title>pyPLNmodels, idiffomix – StatOmique</title>
+<title>Analyse de données de comptage multivariées et intégration de données omiques – StatOmique</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -126,8 +126,8 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">pyPLNmodels, idiffomix</h1>
-            <p class="subtitle lead">Analyse de données de comptage et intégration de données omiques</p>
+      <h1 class="title">Analyse de données de comptage multivariées et intégration de données omiques</h1>
+            <p class="subtitle lead">pyPLNmodels, idiffomix, …</p>
                                 <div class="quarto-categories">
                 <div class="quarto-category">workshop</div>
               </div>
@@ -160,8 +160,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#program" id="toc-program" class="nav-link active" data-scroll-target="#program">Program</a>
   <ul class="collapse">
   <li><a href="#informations-pratiques" id="toc-informations-pratiques" class="nav-link" data-scroll-target="#informations-pratiques">Informations pratiques</a></li>
-  <li><a href="#sponsor" id="toc-sponsor" class="nav-link" data-scroll-target="#sponsor">Sponsor</a></li>
-  <li><a href="#organisation-et-comité-scientifique" id="toc-organisation-et-comité-scientifique" class="nav-link" data-scroll-target="#organisation-et-comité-scientifique">Organisation et comité scientifique</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -178,45 +176,39 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><p><strong>9h30-10h00</strong> Accueil - café</p></li>
 <li><p><strong>10h00-10h15</strong> Opening presentation</p></li>
-<li><p><strong>10h15-11h</strong> Bastien Batardière, INRAE, AgroParisTech, MIA-Paris-Saclay, <strong><code>{pyPLNmodels}</code>: A Python package to analyze multivariate high-dimensional count data</strong></p></li>
+<li><p><strong>10h15-11h</strong> <img src="../../media/2025-02-25/batardierebastien.jpg" class="img-fluid" width="100"> <a href="https://bastien-mva.github.io/">Bastien Batardière</a>, INRAE, AgroParisTech, MIA-Paris-Saclay, <strong><code>{pyPLNmodels}</code>: A Python package to analyze multivariate high-dimensional count data</strong></p></li>
 </ul>
 <p><code>{pyPLNmodels}</code> est une bibliothèque Python pour l’analyse de données de comptage multivariées à l’aide du modèle Poisson Lognormal (PLN) et ses variantes. Conçue pour traiter de grands jeux de données, elle permet d’extraire des informations clés à partir de données complexes. Elle est particulièrement adaptée à l’analyse des données RNA-seq, en normalisant les comptes et en identifiant les relations entre gènes.</p>
 <p>Fonctionnalités principales: Elle propose une modélisation avancée des données de comptage, l’estimation des paramètres clés tels que les coefficients de régression et la covariance, ainsi que la normalisation des données pour une meilleure interprétation. L’analyse des corrélations et des poids des covariables est également intégrée, avec une capacité d’adaptation aux données de grande dimension.</p>
 <p>Modèles implémentés: PLN est le modèle de base pour l’analyse des données de comptage. PlnPCA permet une réduction de dimension via l’ACP probabiliste adaptée aux données de comptage. ZIPln prend en compte l’inflation de zéros pour mieux modéliser des données comportant de nombreuses valeurs nulles.</p>
 <p><a href="https://pypi.org/project/pyPLNmodels/">site web</a></p>
 <ul>
-<li><strong>11h00-11h20</strong></li>
+<li><strong>11h00-11h20</strong> El Hacene DJAOUT, LPSM, Sorbonne Université, France, <strong><code>{VaRaPS}</code> : Un package Python pour l’estimation des proportions de variants SARS-CoV-2 à partir de données de séquençage groupées</strong></li>
 </ul>
-<p>El Hacene DJAOUT, LPSM, Sorbonne Université, France</p>
-<p><strong><code>{VaRaPS}</code> : Un package Python pour l’estimation des proportions de variants SARS-CoV-2 à partir de données de séquençage groupées</strong></p>
-<p>Résumé : Je présenterai <code>{VaRaPS}</code>, un package Python conçu pour optimiser l’estimation des proportions de variants SARS-CoV-2 à partir de données de séquençage d’eaux usées. Cette implémentation améliore significativement les performances des méthodes existantes (Freyja, LCS, VirPool), avec des gains en vitesse allant jusqu’à 3570x pour l’optimisation et 103x pour l’extraction des données, tout en maintenant ou améliorant la précision des estimations. La présentation pourra aussi inclure une démonstration du logiciel.</p>
-<p>Résumé détaillé:</p>
 <p>L’épidémiologie basée sur les eaux usées s’est révélée être un outil puissant pour la surveillance des variants du SARS-CoV-2. Nous présentons <code>{VaRaPS}</code> (Variants Ratios from Pooled Sequencing), un package Python qui optimise les algorithmes statistiques fondamentaux pour estimer efficacement les proportions de lignées SARS-CoV-2 à partir de données de séquençage groupées d’eaux usées. <code>{VaRaPS}</code> intègre un algorithme personnalisé d’identification des variants, spécialement conçu pour les données de séquençage groupées, exploitant les informations de mutations au niveau des lectures et utilisant des représentations matricielles creuses pour une gestion efficace des données.</p>
-<p>VaRaPS améliore considérablement l’efficacité computationnelle des méthodes existantes (Freyja, LCS et VirPool), atteignant des facteurs d’accélération jusqu’à 3 570 fois pour les temps d’optimisation et 103 fois pour l’extraction des données, tout en maintenant ou améliorant la précision des estimations. Le package intègre un paramètre de taux d’erreur pour prendre en compte les erreurs de séquençage, affinant davantage la précision statistique. Les analyses comparatives utilisant des jeux de données synthétiques démontrent la performance supérieure de VaRaPS dans l’estimation de la prévalence des lignées, avec une précision et une cohérence améliorées pour toutes les méthodes implémentées.</p>
+<p><code>{VaRaPS}</code> améliore considérablement l’efficacité computationnelle des méthodes existantes (Freyja, LCS et VirPool), atteignant des facteurs d’accélération jusqu’à 3 570 fois pour les temps d’optimisation et 103 fois pour l’extraction des données, tout en maintenant ou améliorant la précision des estimations. Le package intègre un paramètre de taux d’erreur pour prendre en compte les erreurs de séquençage, affinant davantage la précision statistique. Les analyses comparatives utilisant des jeux de données synthétiques démontrent la performance supérieure de VaRaPS dans l’estimation de la prévalence des lignées, avec une précision et une cohérence améliorées pour toutes les méthodes implémentées.</p>
 <p>L’architecture modulaire et la conception orientée utilisateur du package facilitent son application dans des contextes réels. <code>{VaRaPS}</code> représente une avancée significative dans les outils bioinformatiques et biostatistiques pour l’analyse des lignées virales, offrant une solution robuste et efficace pour l’épidémiologie basée sur les eaux usées dans l’ère post-pandémique.</p>
 <ul>
-<li><strong>11h20-11h40</strong></li>
+<li><strong>11h20-11h40</strong> Maximilien Colange, Abdelkader Behdenna, Epigene Labs, France, <strong>Bridging the Gap Between R and Python in Bulk Transcriptomic Data Analysis with InMoose</strong></li>
 </ul>
-<p>Maximilien Colange, Abdelkader Behdenna, Epigene Labs, France</p>
-<p><strong>Bridging the Gap Between R and Python in Bulk Transcriptomic Data Analysis with InMoose</strong></p>
-<p><em>Work and feedback around methylation</em> - <strong>11h40-12h00</strong></p>
-<p>Valentin Coste,</p>
-<p><strong>Microarray vs NGS</strong></p>
+<p>We introduce <code>{InMoose}</code>, an open-source Python environment for omic data analysis. Due to its wide adoption, Python has grown as a de facto standard in fields increasingly important for bioinformatic pipelines, such as data science, machine learning, or AI. As a general-purpose language, Python is also recognized for its versatility and scalability. InMoose aims at bringing state-of-the-art tools, historically written in R, to the Python ecosystem. Our intent is to provide a drop-in replacement for R tools, so our approach focuses on the faithfulness to the original tools outcomes. The first development phase has focused on bulk transcriptomic data, with current capabilities encompassing data simulation, batch effect correction, and differential analysis and meta-analysis. <code>{InMoose}</code> offers a Python implementation of several state-of-the-art tools originally written in R: <code>{ComBat}</code> and <code>{ComBat-Seq}</code> (batch effect correction), <code>{edgeR}</code>, <code>{DESeq2}</code>, <code>{limma}</code> (differential gene expression analysis), <code>{splatter}</code> (RNA-Seq data simulation).</p>
+<p>To our knowledge, <code>{InMoose}</code> is the sole Python implementation of <code>{ComBat-Seq}</code>, <code>{edgeR}</code> and <code>{limma}</code>. <code>{InMoose}</code> also offers original features: a quality control report for cohorts built through the batch effect correction features; a differential gene expression meta-analysis module.</p>
+<p>We compare <code>{InMoose}</code> with the R original implementations and alternative Python implementations when available. Our experiments show that the results of InMoose are very similar, if not identical, to those of the original R tools. This positions <code>{InMoose}</code> as a key tool to bridge R and Python ecosystem and to ensure reproducibility and comparability between R-based and Python-based bioinformatics pipelines.</p>
+<ul>
+<li><p><strong>11h40-12h30</strong> <em>Work and feedback around methylation</em></p></li>
+<li><p><strong>11h40-12h00</strong> Valentin Coste, <strong>Microarray vs NGS</strong></p></li>
+</ul>
 <p>Chez le bovin, la méthylation de l’ADN pourrait potentiellement être utilisée pour prédire des phénotypes. Il existe plusieurs technologies permettant d’analyser cette dernière, chacune ayant certains points forts et des points faibles. Parmi celle-ci, l’équipe utiliser principalement des méthodes de séquençages par RRBS, et depuis peu des données obtenues par Micro-array. L’objectif de la présentation sera de présenter les types de données qui sont générées, et de montrer quelques comparaisons entre des données produites par séquençages ou par Micro-array.</p>
 <ul>
-<li><strong>12h00-12h15</strong></li>
+<li><strong>12h00-12h15</strong> Luc Jouneau, <strong><code>{edgeR}</code>: Une solution pour l’analyse RRBS d’une expérience à 2 facteurs&nbsp;?</strong></li>
 </ul>
-<p>Luc Jouneau</p>
-<p><strong><code>{edgeR}</code>: Une solution pour l’analyse RRBS d’une expérience à 2 facteurs&nbsp;?</strong></p>
 <p>En 20xx, dans un post sur un forum, Gordon Smyth montre qu’il est possible d’utiliser <code>{edgeR}</code> pour l’analyse de données RRBS. Depuis, son équipe a publié <a href="https://f1000research.com/articles/6-2055/v2">un article à ce sujet</a> et a même intégré ce cas d’étude dans la <a href="https://bioconductor.org/packages/release/bioc/vignettes/edgeR/inst/doc/edgeRUsersGuide.pdf">documentation et les fonctions de son package, section 4.8</a>. En pratique, quelles sont les atouts et inconvénients de l’application de <code>{edgeR}</code> sur ce type de données&nbsp;?</p>
 <ul>
-<li><strong>12h15-12h30</strong></li>
+<li><strong>12h15-12h30</strong> Anne Frambourg, <strong>Evaluation des résultats sur une analyse à 2 facteurs avec le package <code>{DSS}</code></strong></li>
 </ul>
-<p>Anne Frambourg</p>
-<p><strong>Evaluation des résultats sur une analyse à 2 facteurs avec le package <code>{DSS}</code></strong></p>
 <p>Application de la méthode Dispersion Shrinkage for Sequencing data (DSS, Park and Wu, 2016), fondée sur un modèle beta-binomial, dans le cadre du projet BoSexDim qui a pour ambition entre autres d’identifier les dimorphismes sexuels précoces chez l’embryon de bovin et d’étudier comment ces dimorphismes sont modifiés en réponse à l’environnement embryonnaire (vitro/vivo). Plusieurs modèles ont été considérés pour l’analyse à deux facteurs sexe et milieu. Un effet d’interaction entre les deux effets ayant été identifié, le modèle avec variables concaténées sexe:milieu a été retenu car il permet de réaliser toutes les analyses différentielles entre chaque sous-catégorie (Femelle – Vivo, Femelle – Vitro, Mâle – Vivo, Mâle – Vitro).</p>
 <ul>
-<li><strong>Lunch break</strong></li>
+<li><strong>12h30 - 14h00</strong> <strong>Lunch break</strong></li>
 </ul>
 <div class="callout callout-style-simple callout-warning">
 <div class="callout-body d-flex">
@@ -229,8 +221,9 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <ul>
-<li><strong>14h00 - 14h50</strong> Koyel Majumdar, Florence Jaffrézic, Andrea Rau, <strong>Isobel Claire Gormley</strong>, Thomas Brendan Murphy, <strong>Integrated differential analysis of multi-omics data using a joint mixture model: idiffomix</strong></li>
+<li><strong>14h00 - 14h50</strong> <img src="../../media/2025-02-25/clairegormley.png" class="img-fluid" width="100"> <a href="http://www.maths.ucd.ie/~cgormley">Claire Gormley</a> <strong>Integrated differential analysis of multi-omics data using a joint mixture model: idiffomix</strong></li>
 </ul>
+<p>Koyel Majumdar, Florence Jaffrézic, Andrea Rau, <strong>Isobel Claire Gormley</strong>, Thomas Brendan Murphy</p>
 <p>Gene expression and DNA methylation are two interconnected biological processes and understanding their relationship is important in advancing understanding in diverse areas, including disease pathogenesis, environmental adaptation, developmental biology, and therapeutic responses. Differential analysis, including the identification of differentially methylated cytosine-guanine dinucleotide (CpG) sites (DMCs) and differentially expressed genes (DEGs) between two conditions, such as healthy and affected samples, can aid understanding of biological processes and disease progression. Typically, gene expression and DNA methylation data are analysed independently to identify DMCs and DEGs which are further analysed to explore relationships between them. Such approaches ignore the inherent dependencies and biological structure within these related data.</p>
 <p>A joint mixture model is proposed that integrates information from the two data types at the modelling stage to capture their inherent dependency structure, enabling simultaneous identification of DMCs and DEGs. The model leverages a joint likelihood function that accounts for the nested structure in the data, with parameter estimation performed using an expectation-maximisation algorithm.</p>
 <p>Performance of the proposed method, <code>{idiffomix}</code>, is assessed through a thorough simulation study and application to a publicly available breast cancer dataset. Several genes, identified as non-differentially expressed when the data types were modelled independently, had high likelihood of being differentially expressed when associated methylation data were integrated into the analysis. The idiffomix approach highlights the advantage of an integrated analysis via a joint mixture model over independent analyses of the two data types; genome-wide and cross-omics information is simultaneously utilised providing a more comprehensive view.</p>
@@ -271,24 +264,6 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Date</strong> : <strong>Mardi 11 mars de 9h30 à 17h</strong></p>
 <p><strong>Venue</strong> : <a href="https://www.agroparistech.fr/en/visiting-our-school">Campus Agro Paris Saclay, Palaiseau, France</a></p>
 <p>L’accès sur site sera réservé aux personnes inscrites.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="sponsor" class="level3">
-<h3 class="anchored" data-anchor-id="sponsor">Sponsor</h3>
-<p><img src="../../media/LOGO-GDR_BIMMM.png" class="img-fluid" width="398"></p>
-</section>
-<section id="organisation-et-comité-scientifique" class="level3">
-<h3 class="anchored" data-anchor-id="organisation-et-comité-scientifique">Organisation et comité scientifique</h3>
-<div class="callout callout-style-simple callout-tip no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><strong>Julie Aubert</strong>, Université Paris-Saclay, AgroParisTech, INRAE, UMR MIA Paris-Saclay, Paris.</p>
-<p><strong>Christelle Hennequet-Antier</strong>, Université Paris-Saclay, INRAE, BioinfOmics, MIGALE Bioinformatics Facility, Jouy-en-Josas.&nbsp;</p>
 </div>
 </div>
 </div>
