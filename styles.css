@@ -1,1 +1,6 @@
 /* css styles */
+
+/* justify paragraph text */
+p {
+  text-align: justify
+}
