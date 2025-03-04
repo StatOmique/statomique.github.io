@@ -1,4 +1,6 @@
 /* css styles */
-.auto {
-  text-justify: auto;
+
+/* justify paragraph text */
+p {
+  text-align: justify
 }
