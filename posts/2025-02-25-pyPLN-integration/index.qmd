@@ -45,15 +45,15 @@ We compare `{InMoose}` with the R original implementations and alternative Pytho
 
 -   **11h40-12h30** *Work and feedback around methylation*
 
--   **11h40-12h00** Valentin Coste, **Microarray vs NGS**
+-   **11h40-12h00** Valentin Costes, Eliance, **Microarray vs NGS**
 
 Chez le bovin, la méthylation de l’ADN pourrait potentiellement être utilisée pour prédire des phénotypes. Il existe plusieurs technologies permettant d’analyser cette dernière, chacune ayant certains points forts et des points faibles. Parmi celle-ci, l’équipe utiliser principalement des méthodes de séquençages par RRBS, et depuis peu des données obtenues par Micro-array. L’objectif de la présentation sera de présenter les types de données qui sont générées, et de montrer quelques comparaisons entre des données produites par séquençages ou par Micro-array.
 
--   **12h00-12h15** Luc Jouneau, **`{edgeR}`: Une solution pour l’analyse RRBS d’une expérience à 2 facteurs ?**
+-   **12h00-12h15** Luc Jouneau, VIM, BREED, INRAE, Jouy-en-Josas, **`{edgeR}`: Une solution pour l’analyse RRBS d’une expérience à 2 facteurs ?**
 
 En 20xx, dans un post sur un forum, Gordon Smyth montre qu’il est possible d’utiliser `{edgeR}` pour l’analyse de données RRBS. Depuis, son équipe a publié [un article à ce sujet](https://f1000research.com/articles/6-2055/v2) et a même intégré ce cas d’étude dans la [documentation et les fonctions de son package, section 4.8](https://bioconductor.org/packages/release/bioc/vignettes/edgeR/inst/doc/edgeRUsersGuide.pdf). En pratique, quelles sont les atouts et inconvénients de l’application de `{edgeR}` sur ce type de données ?
 
--   **12h15-12h30** Anne Frambourg, **Evaluation des résultats sur une analyse à 2 facteurs avec le package `{DSS}`**
+-   **12h15-12h30** Anne Frambourg, VIM, BREED, INRAE, Jouy-en-Josas, **Evaluation des résultats sur une analyse à 2 facteurs avec le package `{DSS}`**
 
 Application de la méthode Dispersion Shrinkage for Sequencing data (DSS, Park and Wu, 2016), fondée sur un modèle beta-binomial, dans le cadre du projet BoSexDim qui a pour ambition entre autres d’identifier les dimorphismes sexuels précoces chez l'embryon de bovin et d'étudier comment ces dimorphismes sont modifiés en réponse à l'environnement embryonnaire (vitro/vivo). Plusieurs modèles ont été considérés pour l’analyse à deux facteurs sexe et milieu. Un effet d’interaction entre les deux effets ayant été identifié, le modèle avec variables concaténées sexe:milieu a été retenu car il permet de réaliser toutes les analyses différentielles entre chaque sous-catégorie (Femelle – Vivo, Femelle – Vitro, Mâle – Vivo, Mâle – Vitro).
 
@@ -79,7 +79,7 @@ Performance of the proposed method, `{idiffomix}`, is assessed through a thoroug
 
 Large-scale heterogeneous data integration for network inference is a key methodological challenge, especially in the context of multi-omic data analysis. The heterogeneous nature can be handled by assuming a Gaussian copula model, where the biological network can be assimilated to the partial correlations of a latent Gaussian vector. The estimation of the corresponding precision matrix is realized by combining the graphical Lasso (Friedman, 2008) with a semi-parametric pairwise estimation of the copula correlation matrix (Tomilina et al., 2024). We present a simulation study by comparing the performance of the method above against a moment-based approach (Zhang et al., 2021). Then, we show promising application results on an ICGC data set related to breast cancer in the US.
 
--   **15h10 - 15h30** Yanis Asloudj, **EVE, a modular framework for ensemble clustering in -omics data science, and more.**
+-   **15h10 - 15h30** Yanis Asloudj, LaBRI, Univ. Bordeaux, **EVE, a modular framework for ensemble clustering in -omics data science, and more.**
 
 In the era of big data analytics and personalized medicine, clustering analyses have become a cornerstone of -omics bioinformatics. Shortly, clustering analyses attempt to classify several entities into fewer homogeneous groups, by leveraging a set of measurements taken from these entities. For instance, in bulk oncology transcriptomics, clustering analyses are frequently conducted to identify groups (or « clusters ») of patients, inflicted with similar cancer subtypes, according to the gene expression measured in their tumor. Because of their importance in data science as a whole, numerous clustering algorithms have been developed since the last century. In the field of single-cell transcriptomics (or « scRNA-seq ») only, more than 300 algorithms have been developed already. Because each of these algorithms exploits different aspects of the data, the clusters they predict can vary drastically.
 
