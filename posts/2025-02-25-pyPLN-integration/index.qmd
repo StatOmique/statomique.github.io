@@ -25,7 +25,7 @@ Fonctionnalités principales: Elle propose une modélisation avancée des donné
 
 Modèles implémentés: PLN est le modèle de base pour l'analyse des données de comptage. PlnPCA permet une réduction de dimension via l’ACP probabiliste adaptée aux données de comptage. ZIPln prend en compte l’inflation de zéros pour mieux modéliser des données comportant de nombreuses valeurs nulles.
 
-[site web](https://pypi.org/project/pyPLNmodels/)
+Le site web: <https://pypi.org/project/pyPLNmodels/>
 
 -   **11h00-11h20** El Hacene DJAOUT, LPSM, Sorbonne Université, France, **`{VaRaPS}` : Un package Python pour l'estimation des proportions de variants SARS-CoV-2 à partir de données de séquençage groupées**
 
@@ -42,6 +42,8 @@ We introduce `{InMoose}`, an open-source Python environment for omic data analys
 To our knowledge, `{InMoose}` is the sole Python implementation of `{ComBat-Seq}`, `{edgeR}` and `{limma}`. `{InMoose}` also offers original features: a quality control report for cohorts built through the batch effect correction features; a differential gene expression meta-analysis module.
 
 We compare `{InMoose}` with the R original implementations and alternative Python implementations when available. Our experiments show that the results of InMoose are very similar, if not identical, to those of the original R tools. This positions `{InMoose}` as a key tool to bridge R and Python ecosystem and to ensure reproducibility and comparability between R-based and Python-based bioinformatics pipelines.
+
+Le site du package : <https://github.com/epigenelabs/inmoose>
 
 -   **11h40-12h30** *Work and feedback around methylation*
 
@@ -75,6 +77,9 @@ A joint mixture model is proposed that integrates information from the two data 
 
 Performance of the proposed method, `{idiffomix}`, is assessed through a thorough simulation study and application to a publicly available breast cancer dataset. Several genes, identified as non-differentially expressed when the data types were modelled independently, had high likelihood of being differentially expressed when associated methylation data were integrated into the analysis. The idiffomix approach highlights the advantage of an integrated analysis via a joint mixture model over independent analyses of the two data types; genome-wide and cross-omics information is simultaneously utilised providing a more comprehensive view.
 
+Le pré-print : <https://doi.org/10.48550/arXiv.2412.17511>        
+Le package R : <https://cran.r-project.org/package=idiffomix>
+
 -   **14h50 - 15h10** Ekaterina Tomilina, MaIAGE (Dynenvie) and GABI (Gibbs), INRAE, Jouy-en-Josas, **Likelihood-based partial correlation Gaussian copula network inference for heterogeneous multi-omics data**
 
 Large-scale heterogeneous data integration for network inference is a key methodological challenge, especially in the context of multi-omic data analysis. The heterogeneous nature can be handled by assuming a Gaussian copula model, where the biological network can be assimilated to the partial correlations of a latent Gaussian vector. The estimation of the corresponding precision matrix is realized by combining the graphical Lasso (Friedman, 2008) with a semi-parametric pairwise estimation of the copula correlation matrix (Tomilina et al., 2024). We present a simulation study by comparing the performance of the method above against a moment-based approach (Zhang et al., 2021). Then, we show promising application results on an ICGC data set related to breast cancer in the US.
@@ -93,15 +98,24 @@ Briefly, the EVE framework is a modular ensemble clustering framework, that allo
 
 As of today, we have two research perspectives ourselves, that capitalize on this novel clustering framework. First, we plan on measuring the effects of individual framework components (e.g. the methods used to predict base clusters) on clustering results. Secondly, we would like to investigate the usefulness of our framework in answering more diverse biological problems (e.g. multi-omics analyses).
 
+Le site du package : <https://github.com/yanisaspic/scEVE>
+
 -   **15h30 - 16h00** **Coffee break**
 
--   **16h00 - 16h30** Marie Chion, **ProteoBayes: a Bayesian framework for differential proteomics analysis**
+-   **16h00 - 16h30** [Marie Chion](https://mariechion.github.io/), University of Cambridge, **`{ProteoBayes}`: a Bayesian framework for differential proteomics analysis**
 
-This work introduces a Bayesian hierarchical model for mass spectrometry-based differential proteomics analysis, addressing missing values, peptide correlations and uncertainty quantification. Unlike existing approaches that rely on moderated variance estimates, ProteoBayes leverages conjugate priors to enable direct posterior sampling without costly MCMC methods. Applied to real proteomics data, it provides a more intuitive and comprehensive quantification of the uncertainty around peptide intensity differences.
+This work introduces a Bayesian hierarchical model for mass spectrometry-based differential proteomics analysis, addressing missing values, peptide correlations and uncertainty quantification. Unlike existing approaches that rely on moderated variance estimates, `{ProteoBayes}` leverages conjugate priors to enable direct posterior sampling without costly MCMC methods. Applied to real proteomics data, it provides a more intuitive and comprehensive quantification of the uncertainty around peptide intensity differences.
 
--   **16h30 - 17h00** Szymon Urbas, Maynooth University, Ireland, **Bayesian probabilistic partial least squares (BPLS)**
+Le preprint : <https://arxiv.org/abs/2307.08975>        
+Le site du package R : <https://mariechion.github.io/ProteoBayes/>
+
+
+-   **16h30 - 17h00** [Szymon Urbas](https://www.maynoothuniversity.ie/faculty-science-engineering/our-people/szymon-urbas), Maynooth University, Ireland, **Bayesian probabilistic partial least squares (BPLS)**
 
 I will introduce a statistical model that emulates the desirable properties of partial least squares regression whilst enabling principled uncertainty quantification, and which allows for various model-based modifications. The model can be used in univariate and multivariate regression/prediction problems involving high-dimensional sets of covariates. The model is implemented in the R package `{bplsr}` available on CRAN.
+
+L'article : <https://doi.org/10.1214/24-AOAS1947>       
+Le package : <https://cran.r-project.org/package=bplsr>
 
 -   **17h00 - 17h15** Closing
 
