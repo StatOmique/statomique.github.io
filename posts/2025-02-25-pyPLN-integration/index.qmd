@@ -25,7 +25,7 @@ Fonctionnalités principales: Elle propose une modélisation avancée des donné
 
 Modèles implémentés: PLN est le modèle de base pour l'analyse des données de comptage. PlnPCA permet une réduction de dimension via l’ACP probabiliste adaptée aux données de comptage. ZIPln prend en compte l’inflation de zéros pour mieux modéliser des données comportant de nombreuses valeurs nulles.
 
-Le site web: <https://pypi.org/project/pyPLNmodels/>
+Le site web: <https://pypi.org/project/pyPLNmodels/> et les [slides](https://github.com/PLN-team/slideshow/tree/main/talks/statomique_202503_pypln/public). 
 
 -   **11h00-11h20** El Hacene DJAOUT, LPSM, Sorbonne Université, France, **`{VaRaPS}` : Un package Python pour l'estimation des proportions de variants SARS-CoV-2 à partir de données de séquençage groupées**
 
