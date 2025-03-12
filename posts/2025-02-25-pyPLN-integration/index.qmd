@@ -13,6 +13,7 @@ image: "../../media/StatOmique_reseau_logo.jpg"
 ## Program
 
 ## Morning
+
 -   **9h30-10h00** Accueil - café
 
 -   **10h00-10h15** Opening presentation
@@ -25,7 +26,7 @@ Fonctionnalités principales: Elle propose une modélisation avancée des donné
 
 Modèles implémentés: PLN est le modèle de base pour l'analyse des données de comptage. PlnPCA permet une réduction de dimension via l’ACP probabiliste adaptée aux données de comptage. ZIPln prend en compte l’inflation de zéros pour mieux modéliser des données comportant de nombreuses valeurs nulles.
 
-Le site web: <https://pypi.org/project/pyPLNmodels/> et les [slides](https://github.com/PLN-team/slideshow/tree/main/talks/statomique_202503_pypln/public). 
+Le site web: <https://pypi.org/project/pyPLNmodels/> et les [slides](https://github.com/PLN-team/slideshow/tree/main/talks/statomique_202503_pypln/public).
 
 -   **11h00-11h20** El Hacene DJAOUT, LPSM, Sorbonne Université, France, **`{VaRaPS}` : Un package Python pour l'estimation des proportions de variants SARS-CoV-2 à partir de données de séquençage groupées**
 
@@ -43,7 +44,8 @@ To our knowledge, `{InMoose}` is the sole Python implementation of `{ComBat-Seq}
 
 We compare `{InMoose}` with the R original implementations and alternative Python implementations when available. Our experiments show that the results of InMoose are very similar, if not identical, to those of the original R tools. This positions `{InMoose}` as a key tool to bridge R and Python ecosystem and to ensure reproducibility and comparability between R-based and Python-based bioinformatics pipelines.
 
-Le site du package : <https://github.com/epigenelabs/inmoose>
+Slides : [here](/media/2025-02-25/StatOmique_Colange_InMoose.pdf)    
+Package : <https://github.com/epigenelabs/inmoose>
 
 -   **11h40-12h30** *Work and feedback around methylation*
 
@@ -77,18 +79,18 @@ A joint mixture model is proposed that integrates information from the two data 
 
 Performance of the proposed method, `{idiffomix}`, is assessed through a thorough simulation study and application to a publicly available breast cancer dataset. Several genes, identified as non-differentially expressed when the data types were modelled independently, had high likelihood of being differentially expressed when associated methylation data were integrated into the analysis. The idiffomix approach highlights the advantage of an integrated analysis via a joint mixture model over independent analyses of the two data types; genome-wide and cross-omics information is simultaneously utilised providing a more comprehensive view.
 
-Preprint : <https://doi.org/10.48550/arXiv.2412.17511>        
+Slides : [here](/media/2025-02-25/StatOmique_Gormsley_idiffomix.pdf)    
+Preprint : <https://doi.org/10.48550/arXiv.2412.17511>\
 R package : <https://cran.r-project.org/package=idiffomix>
 
 -   **14h50 - 15h10** Ekaterina Tomilina, MaIAGE (Dynenvie) and GABI (Gibbs), INRAE, Jouy-en-Josas, **Likelihood-based partial correlation Gaussian copula network inference for heterogeneous multi-omics data**
 
 Large-scale heterogeneous data integration for network inference is a key methodological challenge, especially in the context of multi-omic data analysis. The heterogeneous nature can be handled by assuming a Gaussian copula model, where the biological network can be assimilated to the partial correlations of a latent Gaussian vector. The estimation of the corresponding precision matrix is realized by combining the graphical Lasso (Friedman et al., 2007) with a semi-parametric pairwise estimation of the copula correlation matrix (Tomilina et al., 2024). We present a simulation study by comparing the performance of the method above against a moment-based approach (Zhang et al., 2021). Then, we show promising application results on an ICGC data set related to breast cancer in the US.
 
-References :        
-**Sparse inverse covariance estimation with the graphical lasso**, Friedman, J. and Hastie T. and Tibshirani, R., 2007, _Biostatistics vol. 9 no.3 pp 432-441_.       
-**A latent gaussian copula model for mixed data analysis in brain imaging genetics**, Zhang, A. et al, 2021, _IEEE Computer Society Press vol. 18 no.4 pp 1350-1360_.       
-**A semi-parametric Gaussian copula model for heterogeneous network inference: an application to multi-omics data**, Tomilina, E. and Mazo, G. and Jaffrezic, F., 2024, <https://hal.inrae.fr/hal-04847648> 
-
+References :\
+**Sparse inverse covariance estimation with the graphical lasso**, Friedman, J. and Hastie T. and Tibshirani, R., 2007, *Biostatistics vol. 9 no.3 pp 432-441*.\
+**A latent gaussian copula model for mixed data analysis in brain imaging genetics**, Zhang, A. et al, 2021, *IEEE Computer Society Press vol. 18 no.4 pp 1350-1360*.\
+**A semi-parametric Gaussian copula model for heterogeneous network inference: an application to multi-omics data**, Tomilina, E. and Mazo, G. and Jaffrezic, F., 2024, <https://hal.inrae.fr/hal-04847648>
 
 -   **15h10 - 15h30** Yanis Asloudj, LaBRI, Univ. Bordeaux, **EVE, a modular framework for ensemble clustering in -omics data science, and more.**
 
@@ -112,15 +114,14 @@ Package : <https://github.com/yanisaspic/scEVE>
 
 This work introduces a Bayesian hierarchical model for mass spectrometry-based differential proteomics analysis, addressing missing values, peptide correlations and uncertainty quantification. Unlike existing approaches that rely on moderated variance estimates, `{ProteoBayes}` leverages conjugate priors to enable direct posterior sampling without costly MCMC methods. Applied to real proteomics data, it provides a more intuitive and comprehensive quantification of the uncertainty around peptide intensity differences.
 
-Preprint : <https://arxiv.org/abs/2307.08975>        
+Preprint : <https://arxiv.org/abs/2307.08975>\
 Package : <https://mariechion.github.io/ProteoBayes/>
-
 
 -   **16h30 - 17h00** [Szymon Urbas](https://www.maynoothuniversity.ie/faculty-science-engineering/our-people/szymon-urbas), Maynooth University, Ireland, **Bayesian probabilistic partial least squares (BPLS)**
 
 I will introduce a statistical model that emulates the desirable properties of partial least squares regression whilst enabling principled uncertainty quantification, and which allows for various model-based modifications. The model can be used in univariate and multivariate regression/prediction problems involving high-dimensional sets of covariates. The model is implemented in the R package `{bplsr}` available on CRAN.
 
-Paper : <https://doi.org/10.1214/24-AOAS1947>       
+Paper : <https://doi.org/10.1214/24-AOAS1947>\
 Package : <https://cran.r-project.org/package=bplsr>
 
 -   **17h00 - 17h15** Closing
@@ -135,4 +136,6 @@ Package : <https://cran.r-project.org/package=bplsr>
 L'accès sur site sera réservé aux personnes inscrites.
 :::
 
-<iframe src="https://mapcarta.com/fr/W643701088/Carte" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://mapcarta.com/fr/W643701088/Carte" width="300" height="225" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+</iframe>
