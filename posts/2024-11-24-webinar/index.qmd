@@ -1,48 +1,44 @@
 ---
-title: MANOCCA et Scimo
-subtitle: Analyse de covariance multivariée et recettes de pré-traitement données omiques
+title: Modélisation et analyse de données de comptage de grande dimension et intégration statistique de données
 lang: fr
 author: ''
-date: '2024-11-28'
-slug: journeegdrBIM
-categories: ["R", "Python", "webinar"]
-tags: [multivariate analysis, covariance, biomarkers, high-dimension, machine learning, tidymodels, recipes]
+date: '2025-03-11'
+slug: integrationepige
+categories: ["R", "Python", "workshop"]
+tags: [multivariate analysis, epigeneti, counts data, PLNModels, integration, proteomics, high-dimension]
 image: "../../media/StatOmique_reseau_logo.jpg"
 ---
 
-Ce jeudi 18 novembre, nous aurons le plaisir d'avoir deux présentations:  une sur une nouvelle méthode d'analyse de covariance multivariée `MANOCCA` et l'autre sur le package R `{scimo}`.
+Ce mardi 11 mars, nous aurons le plaisir d'avoir deux présentations invitées
 
-### MANOCCA, une nouvelle approche statistique pour évaluer des effets sur la covariance/corrélation,  
-[Christophe Boetto](https://research.pasteur.fr/en/member/christophe-boetto/), PhD student in biostatistics and genetic epidemiology, Pasteur Institute
+et des contributions. L'après-midi sera en Anglais.
 
-![From Boetto et al., 2024](../../media/2024-11-24-webinar/manocca.jpeg){width=200 fig-align="center"}
+### {pyPLNmodels}: A Python package to analyze multivariate high-dimensional count data
 
-La présentation détaillera la méthode statistique `MANOCCA` (Multivariate ANalysis of Conditional CovAriance) développé pendant ma thèse. Ce test évalue l'effet d'un prédicteur d'intérêt noté X (Age, Sexe, BMI, tabagisme, variant génétique, ...) sur la covariance d'une variable dépendante multivariée noté Y (niveaux de métabolites, expression de gènes, espèce microbiennes, ...) tout en ajustant pour des covariables C. Le test évalue donc le modèle Cov(Y) ~ X + C pour n'importe quel type de prédicteur binaire, catégoriel ou continue. Le travail a donné lieu à deux cas d'applications, le premier en microbiologie pour caractériser les changements d'intéractions de bactéries en fonction de facteurs environnementaux. Et le second dans la génétique du métabolisme pour évaluer des variants génétiques impactant la co-régulation de métabolites. 
+[Bastien Batardière](https://research.pasteur.fr/en/member/christophe-boetto/), INRAE, MIA-Paris-Saclay
+
+![From Boetto et al., 2024](../../media/2024-11-24-webinar/manocca.jpeg){width="200" fig-align="center"}
+
+La présentation détaille la méthode statistique `MANOCCA` (Multivariate ANalysis of Conditional CovAriance) développé pendant ma thèse. Ce test évalue l'effet d'un prédicteur d'intérêt noté X (Age, Sexe, BMI, tabagisme, variant génétique, ...) sur la covariance d'une variable dépendante multivariée noté Y (niveaux de métabolites, expression de gènes, espèce microbiennes, ...) tout en ajustant pour des covariables C. Le test évalue donc le modèle Cov(Y) \~ X + C pour n'importe quel type de prédicteur binaire, catégoriel ou continue. Le travail a donné lieu à deux cas d'applications, le premier en microbiologie pour caractériser les changements d'intéractions de bactéries en fonction de facteurs environnementaux. Et le second dans la génétique du métabolisme pour évaluer des variants génétiques impactant la co-régulation de métabolites.
 
 Reference :
 
-Christophe Boetto, Arthur Frouin, Léo Henches, Antoine Auvergne, Yuka
-Suzuki, Etienne Patin, Marius Bredon, Alec Chiu, Milieu Interieur
-Consortium, Sriram Sankararaman, Noah Zaitlen, Sean P Kennedy, Lluis
-Quintana-Murci, Darragh Duffy, Harry Sokol, Hugues Aschard, MANOCCA: a
-robust and computationally efficient test of covariance in
-high-dimension multivariate omics data, *Briefings in Bioinformatics*, Volume 25, Issue 4, July 2024, bbae272, <https://doi.org/10.1093/bib/bbae272>
+Christophe Boetto, Arthur Frouin, Léo Henches, Antoine Auvergne, Yuka Suzuki, Etienne Patin, Marius Bredon, Alec Chiu, Milieu Interieur Consortium, Sriram Sankararaman, Noah Zaitlen, Sean P Kennedy, Lluis Quintana-Murci, Darragh Duffy, Harry Sokol, Hugues Aschard, MANOCCA: a robust and computationally efficient test of covariance in high-dimension multivariate omics data, *Briefings in Bioinformatics*, Volume 25, Issue 4, July 2024, bbae272, <https://doi.org/10.1093/bib/bbae272>
 
 Available code in Python and R [here](https://gitlab.pasteur.fr/statistical-genetics/manocca)
 
-### Create your own recipes steps for omics data: the {scimo} package, 
+### Create your own recipes steps for omics data: the {scimo} package,
+
 [Antoine Bichat](https://abichat.github.io/), Laboratoires Servier
 
-![](../../media/2024-11-24-webinar/scimo.png){width=200 fig-align="center"}
+![](../../media/2024-11-24-webinar/scimo.png){width="200" fig-align="center"}
 
 The rise of advanced high-throughput sequencing technologies has led to a massive increase in the production of omics data, encompassing genomics, transcriptomics, proteomics, metagenomics, and more. To effectively explore and analyze omics data, specialized preprocessing techniques are essential, including feature normalization, selection, and aggregation. However, many of these specific methods were not initially available in the original 'recipes' package. As a response, we have developed an extension package, `{scimo}`, designed to seamlessly integrate these techniques into the `tidymodels` ecosystem. `{scimo}` offers a comprehensive suite of preprocessing steps tailored for omics data analysis, while remaining adaptable to other data types. During this presentation, we will showcase the capabilities of `{scimo}` and provide insights into creating your own `{recipes}` extension package. Additionally, we will discuss strategies to navigate the potential pitfalls that we have encountered during the development process.
 
 Package available on [Github](https://github.com/abichat/scimo) and [CRAN](https://cran.r-project.org/package=scimo)
 
-
 ### Informations pratiques
 
 ::: {.callout-warning appearance="simple"}
-Ce sera un webinaire, une fois n'est pas coutume.
+C'était un webinaire, une fois n'est pas coutume.
 :::
-
