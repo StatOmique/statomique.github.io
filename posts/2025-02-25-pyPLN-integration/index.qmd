@@ -44,7 +44,7 @@ To our knowledge, `{InMoose}` is the sole Python implementation of `{ComBat-Seq}
 
 We compare `{InMoose}` with the R original implementations and alternative Python implementations when available. Our experiments show that the results of InMoose are very similar, if not identical, to those of the original R tools. This positions `{InMoose}` as a key tool to bridge R and Python ecosystem and to ensure reproducibility and comparability between R-based and Python-based bioinformatics pipelines.
 
-Slides : [here](/media/2025-02-25/StatOmique_Colange_InMoose.pdf)    
+Slides : [here](/media/2025-02-25/StatOmique_Colange_InMoose.pdf)\
 Package : <https://github.com/epigenelabs/inmoose>
 
 -   **11h40-12h30** *Work and feedback around methylation*
@@ -79,7 +79,7 @@ A joint mixture model is proposed that integrates information from the two data 
 
 Performance of the proposed method, `{idiffomix}`, is assessed through a thorough simulation study and application to a publicly available breast cancer dataset. Several genes, identified as non-differentially expressed when the data types were modelled independently, had high likelihood of being differentially expressed when associated methylation data were integrated into the analysis. The idiffomix approach highlights the advantage of an integrated analysis via a joint mixture model over independent analyses of the two data types; genome-wide and cross-omics information is simultaneously utilised providing a more comprehensive view.
 
-Slides : [here](/media/2025-02-25/StatOmique_Gormsley_idiffomix.pdf)    
+Slides : [here](/media/2025-02-25/StatOmique_Gormsley_idiffomix.pdf)\
 Preprint : <https://doi.org/10.48550/arXiv.2412.17511>\
 R package : <https://cran.r-project.org/package=idiffomix>
 
@@ -92,7 +92,7 @@ References :\
 **A latent gaussian copula model for mixed data analysis in brain imaging genetics**, Zhang, A. et al, 2021, *IEEE Computer Society Press vol. 18 no.4 pp 1350-1360*.\
 **A semi-parametric Gaussian copula model for heterogeneous network inference: an application to multi-omics data**, Tomilina, E. and Mazo, G. and Jaffrezic, F., 2024, <https://hal.inrae.fr/hal-04847648>
 
--   **15h10 - 15h30** Yanis Asloudj, LaBRI, Univ. Bordeaux, **EVE, a modular framework for ensemble clustering in -omics data science, and more.**
+-   **15h10 - 15h30** Yanis Asloudj, LaBRI, Univ. Bordeaux, **`{fEVE}`, a modular framework for ensemble clustering in -omics data science, and more.**
 
 In the era of big data analytics and personalized medicine, clustering analyses have become a cornerstone of -omics bioinformatics. Shortly, clustering analyses attempt to classify several entities into fewer homogeneous groups, by leveraging a set of measurements taken from these entities. For instance, in bulk oncology transcriptomics, clustering analyses are frequently conducted to identify groups (or « clusters ») of patients, inflicted with similar cancer subtypes, according to the gene expression measured in their tumor. Because of their importance in data science as a whole, numerous clustering algorithms have been developed since the last century. In the field of single-cell transcriptomics (or « scRNA-seq ») only, more than 300 algorithms have been developed already. Because each of these algorithms exploits different aspects of the data, the clusters they predict can vary drastically.
 
@@ -100,13 +100,14 @@ To ensure that the results of a clustering analysis were robust to the algorithm
 
 In a previous work, we had developed our own scRNA-seq ensemble clustering algorithm, named `{scEVE}`. Unlike state-of-the-art algorithms, `{scEVE}` was able to address two main conceptual challenges in clustering : it was able (1) to quantify the uncertainty of its predictions, and (2) to generate clustering results with multiple resolutions. To do so, our algorithm first applied multiple scRNA-seq clustering methods on a dataset to predict a large pool of base clusters. From this pool, robust clusters (i.e. clusters predicted by multiple methods) were predicted, and their robustness was quantified by using basic properties from graph and set theories. Finally, these robust clusters were biologically characterized, and this procedure was repeated recursively on every characterized cluster – so long as the robustness of the analysis kept improving.
 
-While some steps of our algorithm were specific to scRNA-seq measurements – namely, the prediction of base clusters, and the biological characterization of robust clusters – we believed that the main contributions of `{scEVE}` (i.e. the robustness quantification and the multi-resolution recursive clustering) were valuable for any type of clustering problem. Thus, to facilitate the utilization of these contributions, we have now developed the EVE framework, which we have implemented in an R package available on Github.
+While some steps of our algorithm were specific to scRNA-seq measurements – namely, the prediction of base clusters, and the biological characterization of robust clusters – we believed that the main contributions of `{scEVE}` (i.e. the robustness quantification and the multi-resolution recursive clustering) were valuable for any type of clustering problem. Thus, to facilitate the utilization of these contributions, we have now developed the `{fEVE}` framework, which we have implemented in an R package available on Github.
 
-Briefly, the EVE framework is a modular ensemble clustering framework, that allows developers to easily replace the single-cell specific functions we have set prior to (and after) the identification of robust clusters. By replacing these functions with ones developed for bulk transcriptomics data (for example), one can easily conduct a bulk RNA-seq clustering analysis with uncertainty values and multiple resolutions. Consequently, we expect that any data scientist interested in clustering will benefit from the modularity our framework.
+Briefly, the `{fEVE}` framework is a modular ensemble clustering framework, that allows developers to easily replace the single-cell specific functions we have set prior to (and after) the identification of robust clusters. By replacing these functions with ones developed for bulk transcriptomics data (for example), one can easily conduct a bulk RNA-seq clustering analysis with uncertainty values and multiple resolutions. Consequently, we expect that any data scientist interested in clustering will benefit from the modularity our framework.
 
 As of today, we have two research perspectives ourselves, that capitalize on this novel clustering framework. First, we plan on measuring the effects of individual framework components (e.g. the methods used to predict base clusters) on clustering results. Secondly, we would like to investigate the usefulness of our framework in answering more diverse biological problems (e.g. multi-omics analyses).
 
-Package : <https://github.com/yanisaspic/scEVE>
+Slides : [here](/media/2025-02-25/StatOmique_Asloudj_feve.pdf)\
+Package : <https://github.com/yanisaspic/fEVE>
 
 -   **15h30 - 16h00** **Coffee break**
 
