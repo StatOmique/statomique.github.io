@@ -45,12 +45,10 @@ To our knowledge, `{InMoose}` is the sole Python implementation of `{ComBat-Seq}
 We compare `{InMoose}` with the R original implementations and alternative Python implementations when available. Our experiments show that the results of InMoose are very similar, if not identical, to those of the original R tools. This positions `{InMoose}` as a key tool to bridge R and Python ecosystem and to ensure reproducibility and comparability between R-based and Python-based bioinformatics pipelines.
 
 Slides : [here](/media/2025-02-25/StatOmique_Colange_InMoose.pdf)\
-Package : <https://github.com/epigenelabs/inmoose>
+Package : <https://github.com/epigenelabs/inmoose>\
 References : \
 Behdenna, A., Colange, M., Haziza, J. et al. pyComBat, a Python tool for batch effects correction in high-throughput molecular data using empirical Bayes methods. _BMC Bioinformatics_ 24, 459 (2023). <https://doi.org/10.1186/s12859-023-05578-5>\
-
 Colange, M., Appé, G., Meunier, L. et al. Bulk Transcriptomic Analysis with InMoose, the Integrated Multi-Omic Open-Source Environment in Python. _Bioarxiv 2024.11.29.625982_ (2024). <https://doi.org/10.1101/2024.11.29.625982>\
-
 Colange, M., Appé, G., Meunier, L. et al. Differential Expression Analysis with InMoose, the Integrated Multi-Omic Open-Source Environment in Python. _Bioarxiv 2024.11.14.623578_ (2024). <https://doi.org/10.1101/2024.11.14.623578>\
 
 -   **11h40-12h30** *Work and feedback around methylation*
