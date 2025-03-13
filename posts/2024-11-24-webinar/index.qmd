@@ -1,21 +1,19 @@
 ---
-title: Modélisation et analyse de données de comptage de grande dimension et intégration statistique de données
+title: MANOCCA et SCIMO
 lang: fr
 author: ''
 date: '2025-03-11'
-slug: integrationepige
+slug: manoccas-scimo
 categories: ["R", "Python", "workshop"]
-tags: [multivariate analysis, epigeneti, counts data, PLNModels, integration, proteomics, high-dimension]
+tags: [multivariate analysis, machine learning, covariance, pre-processing, tidymodels, high-dimension]
 image: "../../media/StatOmique_reseau_logo.jpg"
 ---
 
-Ce mardi 11 mars, nous aurons le plaisir d'avoir deux présentations invitées
+Le jeudi 28 novembre 2024, nous avons écouté deux présentations invitées
 
-et des contributions. L'après-midi sera en Anglais.
+### MANOCCA, une nouvelle approche statistique pour évaluer des effets sur la covariance/corrélation
 
-### {pyPLNmodels}: A Python package to analyze multivariate high-dimensional count data
-
-[Bastien Batardière](https://research.pasteur.fr/en/member/christophe-boetto/), INRAE, MIA-Paris-Saclay
+[Christophe Boetto](https://research.pasteur.fr/en/member/christophe-boetto/), INRAE, MIA-Paris-Saclay
 
 ![From Boetto et al., 2024](../../media/2024-11-24-webinar/manocca.jpeg){width="200" fig-align="center"}
 
