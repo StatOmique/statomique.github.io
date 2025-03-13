@@ -46,6 +46,12 @@ We compare `{InMoose}` with the R original implementations and alternative Pytho
 
 Slides : [here](/media/2025-02-25/StatOmique_Colange_InMoose.pdf)\
 Package : <https://github.com/epigenelabs/inmoose>
+References : \
+Behdenna, A., Colange, M., Haziza, J. et al. pyComBat, a Python tool for batch effects correction in high-throughput molecular data using empirical Bayes methods. _BMC Bioinformatics_ 24, 459 (2023). <https://doi.org/10.1186/s12859-023-05578-5>\
+
+Colange, M., Appé, G., Meunier, L. et al. Bulk Transcriptomic Analysis with InMoose, the Integrated Multi-Omic Open-Source Environment in Python. _Bioarxiv 2024.11.29.625982_ (2024). <https://doi.org/10.1101/2024.11.29.625982>\
+
+Colange, M., Appé, G., Meunier, L. et al. Differential Expression Analysis with InMoose, the Integrated Multi-Omic Open-Source Environment in Python. _Bioarxiv 2024.11.14.623578_ (2024). <https://doi.org/10.1101/2024.11.14.623578>\
 
 -   **11h40-12h30** *Work and feedback around methylation*
 
