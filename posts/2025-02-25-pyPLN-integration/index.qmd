@@ -126,6 +126,7 @@ Package : <https://mariechion.github.io/ProteoBayes/>
 
 I will introduce a statistical model that emulates the desirable properties of partial least squares regression whilst enabling principled uncertainty quantification, and which allows for various model-based modifications. The model can be used in univariate and multivariate regression/prediction problems involving high-dimensional sets of covariates. The model is implemented in the R package `{bplsr}` available on CRAN.
 
+Slides : [here](/media/2025-02-25/StatOmique_Urbaz_bpls.pdf)\
 Paper : <https://doi.org/10.1214/24-AOAS1947>\
 Package : <https://cran.r-project.org/package=bplsr>
 
