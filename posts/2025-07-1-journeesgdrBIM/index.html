@@ -8,7 +8,7 @@
 
 <meta name="author" content="">
 
-<title>New horizons in Deconvolving Bulk Transcriptomic Samples – StatOmique</title>
+<title>Journées du GDR BIM – StatOmique</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -291,11 +291,9 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">New horizons in Deconvolving Bulk Transcriptomic Samples</h1>
-            <p class="subtitle lead">Beyond bulk RNA-Seq</p>
+      <h1 class="title">Journées du GDR BIM</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">symposium</div>
-                <div class="quarto-category">conference</div>
+                <div class="quarto-category">workshop</div>
               </div>
                   </div>
   </div>
@@ -307,7 +305,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Date de publication</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">4 avril 2024</p>
+        <p class="date">25 novembre 2025</p>
       </div>
     </div>
     
@@ -323,13 +321,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation">Motivation</a>
-  <ul class="collapse">
-  <li><a href="#program" id="toc-program" class="nav-link" data-scroll-target="#program">Program</a></li>
-  <li><a href="#informations-pratiques" id="toc-informations-pratiques" class="nav-link" data-scroll-target="#informations-pratiques">Informations pratiques</a></li>
-  <li><a href="#sponsors" id="toc-sponsors" class="nav-link" data-scroll-target="#sponsors">Sponsors</a></li>
-  <li><a href="#organisation-et-comité-scientifique" id="toc-organisation-et-comité-scientifique" class="nav-link" data-scroll-target="#organisation-et-comité-scientifique">Organisation et comité scientifique</a></li>
-  </ul></li>
+  <li><a href="#journée-statomique-le-25-novembre" id="toc-journée-statomique-le-25-novembre" class="nav-link active" data-scroll-target="#journée-statomique-le-25-novembre">Journée StatOmique le 25 novembre</a></li>
   </ul>
 </nav>
     </div>
@@ -341,97 +333,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><img src="../../media/2024-jobim-deconvolution/bandeauJOBIM2024.png" class="img-fluid" width="240"> Ce mini-symposium se tiendra dans le cadre de la conférence <a href="https://jobim2024.sciencesconf.org/">JOBIM 2024</a>. Il est soutenu par le <a href="https://www.gdr-bim.cnrs.fr/">GDR BIMMM</a>, l’institut de convergence <a href="https://research.pasteur.fr/en/program_project/inception/">Inception</a>, le <a href="https://www.lpsm.paris/">LPSM</a> et le <a href="https://www.lip6.fr/">LIP6</a>.</p>
-<section id="motivation" class="level2">
-<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
-<p>Although bulk transcriptomic analyses have greatly contributed to a better understanding of complex diseases, their accuracy is usually hindered by the heterogeneous cellular composition of most biological samples. On the other hand, single-cell RNASeq analysis are expensive and time-consuming, while they suffer from a variety of intrinsic statistical limitations, notably a subsequent reduced depth and coverage of the RNA library.</p>
-<p>To address the limitations of these physical approaches, a vast array of computational deconvolution methods has been designed to automatically infer the characteristics of the distinct subcomponents that make up tissues. The most typical approach consists of inferring the relative abundances of the cellular populations by leveraging reference samples of physically purified populations. Briefly, the deconvolution algorithms assume a linear relationship between the resulting, total ‘bulk’ expressions of transcripts (depicted as the observations in a regression framework), and the expression of transcripts in purified cell populations. The unknown cellular ratios to retrieve are subsequently the individual contributions of subpopulations to the “pool of transcripts” within each sample.</p>
-<p>However, gold-standard deconvolution algorithms suffer from a variety of common limitations. While a jungle of methods has been proposed, there’s no real consensus nor practical solution to solve the following critical issues: their underperformance at differentiating closely related or rare cell populations, the lack of consistency characterizing the outputs returned by these methods and the commonly observed discrepancy observed in real-word conditions between the ratios estimated through these numerical approaches, and the ones measured using physical methods, such as mass cytometry experiences.</p>
-<p>Finding potential solutions to these problems will promote new methodological advances that will have direct impact on the research of versatile and multi- faceted diseases, such as cancer or auto-immune diseases. Indeed, by enhancing the characterization of complex and critical tissues and niches, such as the tumoral micro-environment in a non-destructive fashion, these cutting-edge models would streamline the unravelling of the interactions occurring within a variety of cell populations, paramount to maintain the homeostasis of biological systems.</p>
-<p><img src="../../media/2024-jobim-deconvolution/quanti-feat.jpg" class="img-fluid"></p>
-<section id="program" class="level3">
-<h3 class="anchored" data-anchor-id="program">Program</h3>
-<ul>
-<li><strong>14h00-14h10</strong></li>
-</ul>
-<p>Introduction Emeline Perthame et Bastien Chassagnol</p>
-<ul>
-<li><strong>14h10-14h40</strong></li>
-</ul>
-<p><img src="../../media/2024-jobim-deconvolution/verapancaldi.jpg" class="img-fluid" width="100"> <a href="https://www.crct-inserm.fr/annuaire/vera-pancaldi/">Vera Pancaldi</a> CRCT, INSERM – Université de Toulouse, France</p>
-<p><strong>Deconvolution for clinical applications: a quest to make sense of reference-based deconvolution on tumour tissue samples</strong></p>
-<p>Despite the increasing popularity of single-cell technologies, their price, complicated protocols and uncertain biases make it an unlikely option to be applied routinely in clinical practice. Especially when confronted with tumour samples, capturing cellular heterogeneity as well as the presence of specific subtypes is key to correctly stratify patients and personalise their treatment. Deconvolution of cell type proportions offers an interesting solution that has been widely explored in the last few years. Despite the large and growing number of methods and signatures generated, it remains very hard to define consensus between them and benchmarks are abundant but not trivial. In our lab we are interested in practical applications of these methods in immuno-oncology and we have therefore strived to perform benchmarks and generate data that would help us find some order in the sea of methods and signatures that exist. In particular, we have generated in-vitro data to generate some of the phenotypes that we aim to identify in patients under controlled conditions. Meanwhile, we have strived to develop methods that deconvolve the presence of specific cell-states, rather than cell-types, rarely captures by in-vitro or in-silico benchmark datasets.</p>
-<ul>
-<li><strong>14h40-15h00</strong></li>
-</ul>
-<p><img src="../../media/2024-jobim-deconvolution/hugobarbot.jpeg" class="img-fluid" width="100"> <a href="">Hugo Barbot</a> IRMAR – Université de Rennes - France</p>
-<p><strong>Multi-omic statistical inference of cellular heterogenetity</strong></p>
-<p>Cellular heterogeneity in biological tissues reflects progression of disease state and is therefore useful for improved diagnostic and prognosis. Cell deconvolution is a common approach to unravel the heterogeneous molecular profiles observed in bulk tissues. So far, cellular deconvolution assumes that bulk omic profiles result from weighted sums of so-called signature cell-specific omic profiles, weights being the unknown proportions of those cell types. Consistently, most statistical methods used for cellular deconvolution are based on extensions of the Ordinary Least Squares (OLS) optimization algorithm, under nonnegativity and sum-to-one constraints on those unknown mixing coefficients. Using OLS make implicit assumptions which are highly questionable when applied to bulk molecular profile. Indeed, strong violations of those assumptions may be due to the instrinsic nature of omics data or to the dependence structure induced by the gene regulatory network. The goal of this work is to provide a well defined statistical framework that respects the inherent characteristics of biological data for deconvolution, using multi-omic data. Multi-omic data integration for cellular deconvolution aims at leveraging complementary viewpoints on cellular heterogeneity. Many simultaneous optimization strategies are considered, either based on constrained and weighted maximum likelihood or on gene selection. An extensive comparative study of cell deconvolution performance with leading single or multi-omic methods is conducted on benchmark data and using nine cell types commonly found in PDAC (pancreatic cancer). Results confirm both the gain in a multi-omic integration approach and in the use of ad-hoc probability distributions for each -omic data type.</p>
-<ul>
-<li><strong>15h00-15h15</strong></li>
-</ul>
-<p><img src="../../media/2024-jobim-deconvolution/francescafinotello.jpg" class="img-fluid" width="100"> <a href="https://computationalbiomedicinegroup.github.io/">Francesca Finotello</a> Institute of Molecular Biology – Université d’Innsbruck, Autriche</p>
-<p><strong>Next-generation cell-type deconvolution of transcriptomic data</strong></p>
-<p>The investigation of the cellular composition and architecture of tissues is key to understanding mechanisms that underlie tissue function and its disruption during disease. Deconvolution is a computational technique used to quantify the cellular composition of complex tissues profiled with transcriptomics technologies. While first-generation deconvolution methods could disentangle only a handful of cell types (mainly human immune cells), second-generation methods can be trained using single-cell transcriptomics data to learn the transcriptional “fingerprints” of any cell type, thereby possibly extending deconvolution to any tissue, disease context, and organism of interest. Moreover, these approaches can now be applied to spatial transcriptomics data, revealing the architecture of tissues and the spatial distribution of their cellular constituents. In this talk, I will show how different types of transcriptomic data can be analyzed deconvoluted to chart the cellular organization of complex tissues in health and disease, with a special focus on next-generation deconvolution techniques.</p>
-<ul>
-<li><strong>15h15-15h30</strong></li>
-</ul>
-<p><img src="../../media/2024-jobim-deconvolution/Merotto_Lorenzo.jpg" class="img-fluid" width="100"> <a href="">Lorenzo Merotto</a> Institute of Molecular Biology – Université d’Innsbruck, Autriche</p>
-<p><strong>Benchmarking second-generation deconvolution tools with omnideconv</strong></p>
-<p>Deconvolution methods are computational techniques that infer cell-type fractions from bulk RNA sequencing data leveraging cell-type-specific transcriptomic signatures. Second-generation tools, in particular, learn how to quantify different cell types by training their models with an annotated single-cell RNA-seq atlas, extending the applicability of deconvolution to a much broader panel of cell types, tissues, and organisms. This flexibility, however, poses major challenges in their usage and evaluation. Therefore, we developed omnideconv (omnideconv.org), an ecosystem of resources that simplifies the usage and benchmarking of second-generation deconvolution tools. These include a dedicated R package to access several deconvolution tools in a unified and simplified manner; an interactive web app for the exploration of deconvolution signatures and results; a curated compendium of validation datasets from different organisms; 4) a simulator of artificial RNA-seq datasets with controlled composition; and a reusable pipeline for the systematic benchmarking of second-generation deconvolution tools. Building upon these unique methodologies, we extensively benchmarked eight state-of-the-art deconvolution methods under various scenarios that reproduce real-life applications, shedding light on methods’ strengths, weaknesses, and complementarities. In this talk, I will introduce the omnideconv collection of tools and present the framework and results of our benchmarking study.</p>
-<ul>
-<li><strong>15h30-15h50</strong></li>
-</ul>
-<p><img src="../../media/2024-jobim-deconvolution/akraft.jpg" class="img-fluid" width="100"> <a href="">Agnieszka Kraft</a> Computational Cancer Genomics Lab - ETH Zürich - Switzerland</p>
-<p><strong>Unsupervised Deciphering of Malignant Cell Heterogeneity in Bulk Tumor RNA-Sequencing Data with CDState</strong></p>
-<p>Intratumor transcriptional heterogeneity poses a significant challenge in cancer treatment due to limited understanding of tumor cell types, states, and their implications for therapy resistance. While single-cell sequencing has offered insights into tumor composition across various cancer types, its routine clinical application remains impractical. In contrast, bulk RNA sequencing is more feasible but lacks effective methods for identifying subpopulations of malignant cells without relying on marker genes or reference single-cell data. The effectiveness of these methods heavily depends on the availability of an appropriate reference, which continues to pose a significant challenge. To address these limitations, we introduce CDState: an unsupervised method for predicting and enumerating malignant cell subpopulations using bulk tumor data. CDState employs a Nonnegative Matrix Factorization model extended with a sum-to-one constraint on weights and kurtosis-based optimization of source gene expression, to disentangle bulk data into distinct cell states. Validation of CDState using simulated and “bulkified” data from publicly available single-cell RNA sequencing datasets showcases its reliability and accuracy in recovering previously discovered cancer cell states. Based on these results, we apply CDState to 29 TCGA datasets to provide a comprehensive overview of malignant cells’ transcriptional profiles on a pan-cancer scale.</p>
-<ul>
-<li><strong>15h50-16h00</strong> Conclusion</li>
-</ul>
-<p>Une version <code>.pdf</code> du programme est disponible <a href="https://jobim2024.sciencesconf.org/data/2A_english_booklet_symposium_EN.pdf">ici</a>.</p>
-</section>
-<section id="informations-pratiques" class="level3">
-<h3 class="anchored" data-anchor-id="informations-pratiques">Informations pratiques</h3>
-<p>Le mini-symposium aura lieu sur le site de la conférence JOBIM 2024.</p>
-<div class="callout callout-style-simple callout-tip no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><strong>Date</strong> : <strong>Jeudi 27 juin de 14h à 16h</strong></p>
-<p><strong>Venue</strong> : <a href="https://jobim2024.sciencesconf.org/resource/acces">Université Paul Sabatier, Toulouse, France</a></p>
-<p>L’accès sur site sera réservé aux personnes inscrites à la conférence JOBIM 2024.</p>
-<p>Il sera également possible de suivre à distance moyennant une inscription en mode visio (10 euros). Plus d’informations sur les inscriptions <a href="https://jobim2024.seminaire.inrae.fr/formulaires/inscription">ici</a>.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="sponsors" class="level3">
-<h3 class="anchored" data-anchor-id="sponsors">Sponsors</h3>
-<p><img src="../../media/LOGO-GDR_BIMMM.png" class="img-fluid" width="398"></p>
-<p><img src="../../media/2024-jobim-deconvolution/InceptionCoul_Big.png" class="img-fluid" width="200"> <img src="../../media/2024-jobim-deconvolution/INSTITUT_PASTEUR_LOGO_2020.jpg" class="img-fluid" width="200"></p>
-<p><img src="../../media/2024-jobim-deconvolution/Sciences_SU.png" class="img-fluid" width="200"> <img src="../../media/2024-jobim-deconvolution/logo_lip6.png" class="img-fluid" width="200"> <img src="../../media/2024-jobim-deconvolution/logo_LPSM.jpg" class="img-fluid" width="200"></p>
-</section>
-<section id="organisation-et-comité-scientifique" class="level3">
-<h3 class="anchored" data-anchor-id="organisation-et-comité-scientifique">Organisation et comité scientifique</h3>
-<div class="callout callout-style-simple callout-tip no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><strong>Julie Aubert</strong>, Université Paris-Saclay, AgroParisTech, INRAE, UMR MIA Paris-Saclay, Paris.</p>
-<p><strong>Bastien Chassagnol</strong>, Sorbonne Université, CNRS, Laboratoire de probabilités, statistique et modélisation (LPSM), Paris.</p>
-<p><strong>Marie-Agnès Dillies</strong>, Institut Pasteur, Hub de Bioinformatique et Biostatistique, Paris.</p>
-<p><strong>Christelle Hennequet-Antier</strong>, Université Paris-Saclay, INRAE, BioinfOmics, MIGALE Bioinformatics Facility, Jouy-en-Josas.&nbsp;</p>
-<p><strong>Emeline Perthame</strong>, Institut Pasteur, Hub de Bioinformatique et Biostatistique, Paris.</p>
-</div>
-</div>
-</div>
+<p><img src="../../../../media/LOGO-GDR_BIMMM.png" width="200"></p>
+<p>Le GDR BioInformatique Moléculaire organise des journées la semaine du 24 novembre à <strong>Nantes</strong>.</p>
+<section id="journée-statomique-le-25-novembre" class="level2">
+<h2 class="anchored" data-anchor-id="journée-statomique-le-25-novembre">Journée StatOmique le 25 novembre</h2>
+<p>Dans l’esprit d’échange et de partage cher à StatOmique, les contributions prennent différentes formes de la communication orale classique ou très informelle en passant par un tutoriel et une session poster.</p>
+<p>Plus d’information à venir</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
