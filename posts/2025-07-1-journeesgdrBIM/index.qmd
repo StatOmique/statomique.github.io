@@ -1,0 +1,20 @@
+---
+title: Journées du GDR BIM
+lang: fr
+author: ''
+date: '2025-11-25'
+slug: journeesgdrBIM2025
+categories: [workshop]
+tags: [transcriptomique, mutli-omiques, données manquantes]
+image: "../../media/LOGO-GDR_BIMMM.png"
+---
+
+<img src="../../../../media/LOGO-GDR_BIMMM.png" width="200"/>
+
+Le GDR BioInformatique Moléculaire organise des journées la semaine du 24 novembre à **Nantes**.
+
+## Journée StatOmique le 25 novembre
+
+Dans l'esprit d'échange et de partage cher à StatOmique, les contributions prennent différentes formes de la communication orale classique ou très informelle en passant par un tutoriel et une session poster.
+
+Plus d'information à venir
