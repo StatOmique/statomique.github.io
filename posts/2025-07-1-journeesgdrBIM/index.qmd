@@ -6,15 +6,51 @@ date: '2025-11-25'
 slug: journeesgdrBIM2025
 categories: [workshop]
 tags: [transcriptomique, mutli-omiques, données manquantes]
-image: "../../media/LOGO-GDR_BIMMM.png"
+image: "../../media/Journees_du_GDR_BIMMM_2025_Bioinformatique_Moleculaire_Modelisation_et_Methodes_anglais.png"
 ---
 
-<img src="../../../../media/LOGO-GDR_BIMMM.png" width="200"/>
+<img src="../../../../media/Journees_du_GDR_BIMMM_2025_Bioinformatique_Moleculaire_Modelisation_et_Methodes_anglais.png" width="800"/>
 
-Le GDR BioInformatique Moléculaire organise des journées la semaine du 24 novembre à **Nantes**.
+Le GDR BIMMM (BioInformatique Moléculaire : Modélisation et Méthodologie) organise des journées du 24 au 28 novembre 2025 à **Nantes**. La journée plénière intitulée **"Bioinformatique et enjeux environnementaux, quel rôle pour le GDR BIMMM ?"** aura lieu le mercredi 26 novembre 2025. Les jours qui précédent et qui suivent la journée plénière sont consacrés aux différents groupes de travail du GDR, dont StatOmique.
 
-## Journée StatOmique le 25 novembre
+Vous trouverez plus d’informations sur le [site des journées](https://gdr-bimmm-2025.sciencesconf.org/).
+
+## Journée StatOmique - 25 novembre
 
 Dans l'esprit d'échange et de partage cher à StatOmique, les contributions prennent différentes formes de la communication orale classique ou très informelle en passant par un tutoriel et une session poster.
 
-Plus d'information à venir
+### Soumissions
+
+Vous pourrez soumettre un résumé (1 à 2 pages) pour une communication orale ou un poster. Nous encourageons la soumission de résultats négatifs, de retours d'expériences, aussi bien que de premiers résultats de recherche.
+
+Pour les présentations, les diapositives devront être en Anglais et les présentations pourront être en Anglais ou en Français.
+
+### Programme
+
+En cours de construction ...
+
+### Inscription
+
+L'inscription est gratuite mais obligatoire et inclut les pauses déjeuner et café. Pour les repas, une option végétarienne sera systématiquement proposée. Le formulaire d'inscription permet de préciser un régime spécifique (intolérance au gluten, véganisme, allergie).
+
+L'inscription se fait sur le [site principal des journées du gdr BiMMM](https://gdr-bimmm-2025.sciencesconf.org/).
+
+Les inscriptions (aux GT et à la journée plénière) sont d’ores et déjà ouvertes.
+
+### Dates importantes
+
+-   Début des soumissions : 1er septembre
+-   Fin des soumissions : 5 octobre
+-   Fin des inscriptions : 24 octobre
+
+### Informations pratiques
+
+La journée StatOmique aura lieu en Amphi S, **campus de Centrale Nantes**.
+
+Accessible via le tramway ligne 2 arrêt "Ecole Centrale - Audencia" .
+
+La localisation des points d'intérêts relatives aux journées du gdr (amphithéatres, zones de restauration, entrée pietones, parking, voies d'accès) sont disponibles sur la [carte suivante](https://www.google.com/maps/d/viewer?mid=1sTdgI8sQOLXmR31aHzywE1idZ-do7fU&usp=sharing).
+
+### Soutien
+
+Cet événement est organisé et soutenu comme partie des journées du gdr BiMMM. <img src="../../../../media/LOGO-GDR_BIMMM.png" width="400"/>
