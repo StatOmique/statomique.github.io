@@ -21,13 +21,23 @@ Dans l'esprit d'échange et de partage cher à StatOmique, les contributions pre
 
 ### Soumissions
 
-Vous pourrez soumettre un résumé (1 à 2 pages) pour une communication orale ou un poster. Nous encourageons la soumission de résultats négatifs, de retours d'expériences, aussi bien que de premiers résultats de recherche.
+Vous pouvez soumettre un résumé (1 à 2 pages) [ici](https://statomique-2025.sciencescall.org) pour une communication orale ou un poster. Nous encourageons la soumission de résultats négatifs, de retours d'expériences, aussi bien que de premiers résultats de recherche.
 
 Pour les présentations, les diapositives devront être en Anglais et les présentations pourront être en Anglais ou en Français.
 
 ### Programme
 
 En cours de construction ...
+
+Invitées :
+
+- Marie Denoulet, Centre de Recherche en Cancérologie et Immunologie Intégrée Nantes Angers, INSERM, CNRS, Université de Nantes,
+
+**[muscadet](https://icagen.github.io/muscadet/): An R Package for Detecting Somatic Copy Number Alterations from Single-Cell Multiomics**
+
+- [Perrine Lacroix](https://sites.google.com/view/placroix), Laboratoire de Mathématiques Jean Leray, CNRS, Unvisersité de Nantes
+
+**Statistical Testing for Single-Cell Data**
 
 ### Inscription
 
@@ -40,14 +50,14 @@ Les inscriptions (aux GT et à la journée plénière) sont d’ores et déjà o
 ### Dates importantes
 
 -   Début des soumissions : 1er septembre
--   Fin des soumissions : 5 octobre
+-   Fin des soumissions : 15 octobre
 -   Fin des inscriptions : 24 octobre
 
 ### Informations pratiques
 
-La journée StatOmique aura lieu en Amphi S, **campus de Centrale Nantes**.
+<!-- La journée StatOmique aura lieu en Amphi S, **campus de Centrale Nantes**. -->
 
-Accessible via le tramway ligne 2 arrêt "Ecole Centrale - Audencia" .
+<!-- Accessible via le tramway ligne 2 arrêt "Ecole Centrale - Audencia" . -->
 
 La localisation des points d'intérêts relatives aux journées du gdr (amphithéatres, zones de restauration, entrée pietones, parking, voies d'accès) sont disponibles sur la [carte suivante](https://www.google.com/maps/d/viewer?mid=1sTdgI8sQOLXmR31aHzywE1idZ-do7fU&usp=sharing).
 
