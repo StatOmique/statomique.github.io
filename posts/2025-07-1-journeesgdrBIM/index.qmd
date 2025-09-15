@@ -29,15 +29,12 @@ Pour les présentations, les diapositives devront être en Anglais et les prése
 
 En cours de construction ...
 
-Invitées :
+**Invitées :**
 
-- Marie Denoulet, Centre de Recherche en Cancérologie et Immunologie Intégrée Nantes Angers, INSERM, CNRS, Université de Nantes,
+- **Marie Denoulet**, Centre de Recherche en Cancérologie et Immunologie Intégrée Nantes Angers, INSERM, CNRS, Université de Nantes, **[muscadet](https://icagen.github.io/muscadet/): An R Package for Detecting Somatic Copy Number Alterations from Single-Cell Multiomics**. 
 
-**[muscadet](https://icagen.github.io/muscadet/): An R Package for Detecting Somatic Copy Number Alterations from Single-Cell Multiomics**
 
-- [Perrine Lacroix](https://sites.google.com/view/placroix), Laboratoire de Mathématiques Jean Leray, CNRS, Unvisersité de Nantes
-
-**Statistical Testing for Single-Cell Data**
+- [**Perrine Lacroix**](https://sites.google.com/view/placroix), Laboratoire de Mathématiques Jean Leray, CNRS, Unvisersité de Nantes, Tutorial on (kernel-based) **Statistical Testing for Single-Cell Data**.
 
 ### Inscription
 
