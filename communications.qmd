@@ -4,6 +4,8 @@ lang: fr
 date: ''
 ---
 
+#### [Poster](media/PosterA0-StatOmique-Jobim2025.pdf) présenté à **JOBIM en 2025** pour décrire StatOmique.
+
 #### Présentation du GT StatOmique dans le [numéro 31 des Bioinformations](https://bioinformations.fr/old/31)
 
 #### [Poster](media/PosterA0-StatOmique-Jobim2018-V3.pdf) présenté à **JOBIM en 2018** pour décrire notre réseau.
