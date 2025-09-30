@@ -1,0 +1,39 @@
+---
+title: Journée satellite SMPGD
+lang: fr
+author: ''
+date: '2026-01-28'
+slug: journeeSMPGD2026
+categories: [workshop]
+tags: []
+image: "../../media/Grenoble2.jpg"
+---
+
+StatOmique organise une journée satellite de la [conférence SMPGD (Statistical Methods for Post Genomic Data)](https://smpgd2026.sciencesconf.org)
+à Grenoble le mercredi 28 janvier 2026.
+
+
+## Journée StatOmique - 28 janvier
+
+### Soumissions
+
+Vous pourrez soumettre un résumé (1 à 2 pages) pour une communication orale. Nous encourageons la soumission de résultats négatifs, de retours d'expériences, aussi bien que de premiers résultats de recherche.
+
+Pour les présentations, les diapositives devront être en Anglais et les présentations pourront être en Anglais ou en Français.
+
+### Programme
+
+En cours de construction ...
+
+
+### Inscription
+
+A venir
+
+### Informations pratiques
+
+A venir
+
+### Soutien
+
+Cet événement est organisé et soutenu comme partie des journées du gdr BiMMM. <img src="../../../../media/LOGO-GDR_BIMMM.png" width="400"/>

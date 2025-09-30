@@ -1,5 +1,5 @@
 ---
-title: Journées du GDR BIM
+title: Journées du GDR BIMMM
 lang: fr
 author: ''
 date: '2025-11-25'
@@ -26,6 +26,8 @@ Vous pouvez soumettre un résumé (1 à 2 pages) [ici](https://statomique-2025.s
 Pour les présentations, les diapositives devront être en Anglais et les présentations pourront être en Anglais ou en Français.
 
 ### Programme
+
+Nous vous accueillerons à partir de 9h30 pour un démarrage à 10h.
 
 En cours de construction ...
 
