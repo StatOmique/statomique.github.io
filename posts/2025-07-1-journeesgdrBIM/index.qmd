@@ -33,10 +33,65 @@ En cours de construction ...
 
 **Invitées :**
 
-- **Marie Denoulet**, Centre de Recherche en Cancérologie et Immunologie Intégrée Nantes Angers, INSERM, CNRS, Université de Nantes, **[muscadet](https://icagen.github.io/muscadet/): An R Package for Detecting Somatic Copy Number Alterations from Single-Cell Multiomics**. 
+-   **Marie Denoulet**, Centre de Recherche en Cancérologie et Immunologie Intégrée Nantes Angers, INSERM, CNRS, Université de Nantes, [**muscadet**](https://icagen.github.io/muscadet/)**: An R Package for Detecting Somatic Copy Number Alterations from Single-Cell Multiomics**.
 
+    **Background.** Cancer drug resistance emerges from the evolution
+    of tumor cells, driven by genetic (e.g., somatic mutations, copy
+    number alterations (CNAs)) and non-genetic (e.g., chromatin
+    modifications) mechanisms that confer survival advantages under
+    treatment pressure. Single-cell multiomics enables the detailed study
+    of these processes by capturing genomic and epigenomic changes at
+    cellular resolution. However, existing CNA detection tools are
+    restricted to a single omic type, missing the opportunity to leverage
+    integrated information from multiomics datasets. To address this
+    limitation, we developed *muscadet,* an R package that
+    integrates multiple single-cell modalities for more accurate CNA
+    detection.
 
-- [**Perrine Lacroix**](https://sites.google.com/view/placroix), Laboratoire de Mathématiques Jean Leray, CNRS, Unvisersité de Nantes, Tutorial on (kernel-based) **Statistical Testing for Single-Cell Data**.
+    **Methods.**
+    The *muscadet* framework enables integration of joint multiomics
+    data, such as single-cell transcriptomics (scRNA-seq) and chromatin
+    accessibility (scATAC-seq), captured from the same cells. Cells are
+    initially clustered by relative coverage (log ratio of read counts)
+    integrated across multiple omics layers. CNA calling is then
+    performed on aggregated coverage and allelic (read counts per allele)
+    data at the cluster level, leveraging combined signals from omics and
+    cells. Lastly, *muscadet* includes visualization tools for
+    genome-wide coverage assessment, subclone identification, and
+    comprehensive CNA profiling.
+
+    **Results.**
+    We applied *muscadet* to matched pre- and post-treatment
+    multiple myeloma samples, integrating scRNA-seq and scATAC-seq data.
+    This multiomic approach improves CNA detection and subclone
+    resolution, outperforming single-omic methods by better capturing
+    tumor heterogeneity and therapy-driven genomic and epigenomic
+    changes.
+
+    **Conclusions.**
+    Our findings demonstrate the advantages of integrating single-cell
+    multiomics for a refined characterization of tumor evolution. The R
+    package *muscadet* provides a robust computational framework for
+    CNA detection, providing deeper insights into clonal dynamics and
+    facilitating the identification of therapeutic vulnerabilities.
+
+-   [**Perrine Lacroix**](https://sites.google.com/view/placroix), Laboratoire de Mathématiques Jean Leray, CNRS, Unvisersité de Nantes, Tutorial on (kernel-based) **Statistical Testing for Single-Cell Data**.
+
+    In this tutorial, we will focus on statistical hypothesis testing
+    to compare two data populations of single-cell gene expressions.
+    The complexity of the data (dependencies between genes,
+    multivariate structure, large number of cells, etc.) prevents the
+    basic two-sample statistical test based on the
+    signal-to-noise-ratio from summarising the relevant information
+    for comparing the two populations. A complex test statistic is
+    required and a modern method consists of combining kernel methods
+    with statistical testing to define a new nonlinear distance
+    between the two populations. During the presentation, we will
+    discuss statistical testing, kernel methods, and how combining
+    these two approaches can help discriminate between two complex
+    distributions. We will define the so-called Maximum Mean
+    Discrepancy (MMD) metric, its regularization versions, and its
+    applications for single-cell data comparison.
 
 ### Inscription
 
