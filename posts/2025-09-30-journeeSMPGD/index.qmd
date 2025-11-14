@@ -9,12 +9,9 @@ tags: []
 image: "../../media/Grenoble2.jpg"
 ---
 
-StatOmique organise une journée satellite de la [conférence SMPGD (Statistical Methods for Post Genomic Data)](https://smpgd2026.sciencesconf.org)
-à Grenoble le mercredi 28 janvier 2026.
-
+StatOmique organise une journée satellite de la [conférence SMPGD (Statistical Methods for Post Genomic Data)](https://smpgd2026.sciencesconf.org) à Grenoble le mercredi 28 janvier 2026.
 
 La conférence SMPGD (Statistical Methods for Post Genomic Data) est une conférence annuelle dédiée aux méthodes statistiques pour l'analyse de données post-génomiques, dont l'objectif est de présenter à la fois des travaux de mathématiques aux statistiques appliquées, mais aussi de nouveaux champs d'application de la biologie à haut débit qui auraient besoin de nouveaux développements statistiques. Vous pouvez visiter le [site général de la conférence](https://smpgd.fr/) pour en savoir plus sur les éditions passées. Et si vous ne connaissez pas, nous vous incitons fortement à venir à la journée StatOmique et à rester à Grenoble pour participer à la [session 2026 de SMPGD](https://smpgd2026.sciencesconf.org).
-
 
 ## Journée StatOmique - 28 janvier
 
@@ -26,19 +23,27 @@ Pour les présentations, les diapositives devront être en Anglais et les prése
 
 ### Programme
 
-En cours de construction ...
+De 13h à 18h
 
+Invité.es : [**Nelle Varoquaux**](**<https://nellev.github.io/>**), CNRS Grenoble, titre à venir
 
-### Inscription
-
-A venir
 
 ### Informations pratiques
 
-A venir
+Les **inscriptions** et **soumissions** se font via le site \[\]().
+
+<!--# https://statomique2026.sciencesconf.org -->
+
+La journée sera un après-midi (13h - 18h) afin de permettre de voyager le matin.
+
+### Dates importantes
+
+-   Début des soumissions : à venir
+-   Fin des soumissions : à venir
+-   Fin des inscriptions : à venir
 
 ### Soutien
 
-Cet événement est organisé avec l'aide du comité local d'organisation de smpgd 2026 et soutenu par le gdr BiMMM. 
+Cet événement est organisé avec l'aide du comité local d'organisation de smpgd 2026 et soutenu par le gdr BiMMM.
 
 <img src="../../../../media/LOGO-GDR_BIMMM.png" width="400"/>
