@@ -33,7 +33,7 @@ Vous trouverez plus d’informations sur le [site des journées](https://gdr-bim
 
 [Résumé](/media/2025-11-25/Resume_StatOmique_LePriol.pdf)\
 
--   **11h35-12h** **Jérémy Ferraro**, Université Paris-Saclay, CNRS, INRAE, Université Evry, Université Paris Cité, Institute of Plant Sciences Paris-Saclay (IPS2), **Impact du nombre de réplicats sur les analyses omiques**.
+-   **11h35-12h** **Jérémy Ferraro**, Université Paris-Saclay, CNRS, INRAE, Université Evry, Université Paris Cité, Institute of Plant Sciences Paris-Saclay (IPS2), [**Impact du nombre de réplicats sur les analyses omiques**](/media/2025-11-25/Presentation_FerraroJ.pdf).
 
 [Résumé](/media/2025-11-25/Resume_StatOmique_Ferraro.pdf)\
 
