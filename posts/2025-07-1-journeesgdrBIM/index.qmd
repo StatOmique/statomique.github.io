@@ -53,7 +53,7 @@ Vous trouverez plus d’informations sur le [site des journées](https://gdr-bim
 
 **14h55 – 15h30 break**
 
--   **15h30–16h15** **Marie Denoulet**, Centre de Recherche en Cancérologie et Immunologie Intégrée Nantes Angers, INSERM, CNRS, Université de Nantes, [**muscadet**](https://icagen.github.io/muscadet/)**: An R Package for Detecting Somatic Copy Number Alterations from Single-Cell Multiomics**.
+-   **15h30–16h15** **Marie Denoulet**, Centre de Recherche en Cancérologie et Immunologie Intégrée Nantes Angers, INSERM, CNRS, Université de Nantes, [**muscadet: An R Package for Detecting Somatic Copy Number Alterations from Single-Cell Multiomics**](2025-11-25_MarieDenoulet_StatOmique).
 
     **Background.** Cancer drug resistance emerges from the evolution of tumor cells, driven by genetic (e.g., somatic mutations, copy number alterations (CNAs)) and non-genetic (e.g., chromatin modifications) mechanisms that confer survival advantages under treatment pressure. Single-cell multiomics enables the detailed study of these processes by capturing genomic and epigenomic changes at cellular resolution. However, existing CNA detection tools are restricted to a single omic type, missing the opportunity to leverage integrated information from multiomics datasets. To address this limitation, we developed *muscadet,* an R package that integrates multiple single-cell modalities for more accurate CNA detection.
 
@@ -62,6 +62,8 @@ Vous trouverez plus d’informations sur le [site des journées](https://gdr-bim
     **Results.** We applied *muscadet* to matched pre- and post-treatment multiple myeloma samples, integrating scRNA-seq and scATAC-seq data. This multiomic approach improves CNA detection and subclone resolution, outperforming single-omic methods by better capturing tumor heterogeneity and therapy-driven genomic and epigenomic changes.
 
     **Conclusions.** Our findings demonstrate the advantages of integrating single-cell multiomics for a refined characterization of tumor evolution. The R package *muscadet* provides a robust computational framework for CNA detection, providing deeper insights into clonal dynamics and facilitating the identification of therapeutic vulnerabilities.
+    
+    Package R {`muscadet`}: [(https://icagen.github.io/muscadet/](https://icagen.github.io/muscadet/)
 
 -   **16h15-17h** **Aurélie Mercadié**, Service Data Science & IA, R&D DCPC, Laboratoires Pierre Fabre, **Multi-omics data analysis to extract group profiles with `{NMFProfiler}`**.
 
