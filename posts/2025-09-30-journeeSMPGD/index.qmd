@@ -17,7 +17,7 @@ La conférence SMPGD (Statistical Methods for Post Genomic Data) est une confér
 
 ### Soumissions
 
-Vous pouvez soumettre un résumé (1 à 2 pages) pour une communication orale [ici]( https://statomique2026.sciencesconf.org) . Nous encourageons la soumission de résultats négatifs, de retours d'expériences, aussi bien que de premiers résultats de recherche.
+Vous pouvez soumettre un résumé (1 à 2 pages) pour une communication orale [ici](https://statomique2026.sciencesconf.org) . Nous encourageons la soumission de résultats négatifs, de retours d'expériences, aussi bien que de premiers résultats de recherche.
 
 Pour les présentations : les diapositives devront être en Anglais et les présentations pourront être en Anglais ou en Français.
 
@@ -27,7 +27,7 @@ De 13h30 à 18h
 
 Invité.es :
 
--   [**Nelle Varoquaux**](**Chttps://nellev.github.io/**), CNRS Grenoble, *titre à venir*
+-   [**Nelle Varoquaux**](**Chttps://nellev.github.io/**), CNRS Grenoble, **Machine learning for -omics data: functions, structures, and evolution.**
 
 -   [**Clovis Galiez**](**https://clovisg.github.io/**), Université Grenoble Alpes, CNRS, INRIA, LJK, Grenoble, **Family of Wasserstein metrics to study biodiversity through the lens of DNA**.
 
@@ -51,7 +51,7 @@ Les **inscriptions** et **soumissions** se font via <https://statomique2026.scie
 
 -   Fin des soumissions - StatOmique : 19 décembre 2025
 -   Fin des inscriptions - StatOmique : 5 janvier 2026
--   Fin des inscriptions SMPGD :  19 décembre 2025 (attention inscriptions limitées aux 150 premiers inscrits)
+-   Fin des inscriptions SMPGD : 19 décembre 2025 (attention inscriptions limitées aux 150 premiers inscrits)
 
 ### Soutien
 
