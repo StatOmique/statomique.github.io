@@ -325,10 +325,9 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#journée-statomique---28-janvier" id="toc-journée-statomique---28-janvier" class="nav-link active" data-scroll-target="#journée-statomique---28-janvier">Journée StatOmique - 28 janvier</a>
   <ul class="collapse">
-  <li><a href="#soumissions" id="toc-soumissions" class="nav-link" data-scroll-target="#soumissions">Soumissions</a></li>
+  <li><a href="#invité.es" id="toc-invité.es" class="nav-link" data-scroll-target="#invité.es">Invité.es :</a></li>
   <li><a href="#programme" id="toc-programme" class="nav-link" data-scroll-target="#programme">Programme</a></li>
   <li><a href="#informations-pratiques" id="toc-informations-pratiques" class="nav-link" data-scroll-target="#informations-pratiques">Informations pratiques</a></li>
-  <li><a href="#dates-importantes" id="toc-dates-importantes" class="nav-link" data-scroll-target="#dates-importantes">Dates importantes</a></li>
   <li><a href="#soutien" id="toc-soutien" class="nav-link" data-scroll-target="#soutien">Soutien</a></li>
   </ul></li>
   </ul>
@@ -346,21 +345,51 @@ ul.task-list li input[type="checkbox"] {
 <p>La conférence SMPGD (Statistical Methods for Post Genomic Data) est une conférence annuelle dédiée aux méthodes statistiques pour l’analyse de données post-génomiques, dont l’objectif est de présenter à la fois des travaux de mathématiques aux statistiques appliquées, mais aussi de nouveaux champs d’application de la biologie à haut débit qui auraient besoin de nouveaux développements statistiques. Vous pouvez visiter le <a href="https://smpgd.fr/">site général de la conférence</a> pour en savoir plus sur les éditions passées. Et si vous ne connaissez pas, nous vous incitons fortement à venir à la journée StatOmique et à rester à Grenoble pour participer à la <a href="https://smpgd2026.sciencesconf.org">session 2026 de SMPGD</a>.</p>
 <section id="journée-statomique---28-janvier" class="level2">
 <h2 class="anchored" data-anchor-id="journée-statomique---28-janvier">Journée StatOmique - 28 janvier</h2>
-<section id="soumissions" class="level3">
-<h3 class="anchored" data-anchor-id="soumissions">Soumissions</h3>
-<p>Vous pouvez soumettre un résumé (1 à 2 pages) pour une communication orale <a href="https://statomique2026.sciencesconf.org">ici</a> . Nous encourageons la soumission de résultats négatifs, de retours d’expériences, aussi bien que de premiers résultats de recherche.</p>
-<p>Pour les présentations : les diapositives devront être en Anglais et les présentations pourront être en Anglais ou en Français.</p>
+<section id="invité.es" class="level3">
+<h3 class="anchored" data-anchor-id="invité.es">Invité.es :</h3>
+<ul>
+<li><p><a href="**Chttps://nellev.github.io/**"><strong>Nelle Varoquaux</strong></a>, CNRS Grenoble.</p></li>
+<li><p><a href="**https://clovisg.github.io/**"><strong>Clovis Galiez</strong></a>, Université Grenoble Alpes, CNRS, INRIA, LJK, Grenoble.</p></li>
+<li><p><strong>Alexandre Wendling</strong>, Université Grenoble Alpes, CNRS, INRIA, LJK, Grenoble.</p></li>
+</ul>
 </section>
 <section id="programme" class="level3">
 <h3 class="anchored" data-anchor-id="programme">Programme</h3>
-<p>De 13h30 à 18h</p>
-<p>Invité.es :</p>
 <ul>
-<li><p><a href="**Chttps://nellev.github.io/**"><strong>Nelle Varoquaux</strong></a>, CNRS Grenoble, <strong>Machine learning for -omics data: functions, structures, and evolution.</strong></p></li>
-<li><p><a href="**https://clovisg.github.io/**"><strong>Clovis Galiez</strong></a>, Université Grenoble Alpes, CNRS, INRIA, LJK, Grenoble, <strong>Family of Wasserstein metrics to study biodiversity through the lens of DNA</strong>.</p></li>
-<li><p><strong>Alexandre Wendling</strong>, Université Grenoble Alpes, CNRS, INRIA, LJK, Grenoble, <strong>Detection of exact sequence variants in metabarcoding by PCR abundance signal clustering</strong>.</p></li>
+<li><p><strong>13h00-13h40</strong> Accueil - café</p></li>
+<li><p><strong>13h40-13h50</strong> Opening presentation</p></li>
+<li><p><strong>13h50-14h15</strong> <strong>Alexandre Wendling</strong>, Université Grenoble Alpes, CNRS, INRIA, LJK, Grenoble, <strong>Detection of exact sequence variants in metabarcoding by PCR abundance signal clustering</strong>.</p></li>
 </ul>
 <p>Abstract : Advances over the past decade in high-throughput sequencing (HTS) technologies have significantly enhanced the use of molecular methods for species identification via environmental DNA (eDNA). Metabarcoding—a technique that enables the simultaneous tagging, sequencing, and identification of multiple species from a single environmental sample (Taberlet, Coissac, Hajibabaei, &amp; Rieseberg, 2012)—has become a cornerstone of biodiversity research (Compson et al., 2020). This approach relies on PCR amplification of taxonomically informative genetic fragments (‘DNA barcodes’), which are sequenced and matched to reference datasets for species identification. However, the analysis of eDNA faces several challenges, the most important of which is the deterministic amplification bias during PCR (Gold et al., 2023). To improve the accuracy and efficiency of taxonomic assignments in eDNA metabarcoding there is a pressing need for advanced tools that can better differentiate genuine environmental signals from the noise inherent in molecular detection processes (Mathon et al., 2021). PCR amplification biases often result in amplicon sequence variants (ASVs) (Callahan, 2017), which do not correspond to real sequences, as has been observed in mock community studies. Currently, after classical denoising pipeline, the classical way to filter out these spurious sequences is by comparing them with reference databases. However, databases are often much incomplete at least for certain taxonomies, and setting the right similarity threshold can be cumbersome in practice. To improve biodiversity descriptions from eDNA, we propose an alternative approach: leveraging the variability in the abundance of sequences across samples and PCR replicates to delineate between true and supurious ASVs without relying on reference databases. Assuming that there is more biological signal than experimental noise, for a true sequence to be considered, the variation in abundance between samples must be greater than the variation in abundance between PCR replicates. We have tested our method on three community mocks for plant, fungal and bacterial primers, where we have demonstrated a clear improvement in precision by removing a large number of false positives in existing pipelines. We have also tested it on real data from the ORCHAMP observatory, where we can construct diversity curves that appear closer to reality than with existing pipelines.</p>
+<ul>
+<li><p><strong>14h15-14h40</strong> <a href="**https://clovisg.github.io/**"><strong>Clovis Galiez</strong></a>, Université Grenoble Alpes, CNRS, INRIA, LJK, Grenoble, <strong>Family of Wasserstein metrics to study biodiversity through the lens of DNA</strong>.<br>
+</p></li>
+<li><p><strong>14h40-15h05</strong> <strong>Emeline Perthame</strong>, Institut Pasteur de Paris, <strong>Application of Large Language Models to enhance animal ethics evaluation in research</strong>.</p></li>
+</ul>
+<p><a href="../../media/2026-01-28/Resume_StatOmiqueGrenoble2026_EPerthame.pdf">Résumé</a></p>
+<ul>
+<li><strong>15h05-15h30</strong> <strong>Laurent Guyon</strong>, BioSanté, Institut de Recherche Interdisciplinaire de Grenoble, CEA, INSERM, Université Grenoble Alpes, <strong>Peritumoral tissue is a promising source of prognostic biomarkers</strong>.</li>
+</ul>
+<p><a href="../../media/2026-01-28/Resume_StatOmiqueGrenoble2026_LGuyon.pdf">Résumé</a>.</p>
+<p><strong>15h30 - 16h00 break</strong></p>
+<ul>
+<li><strong>16h00-16h25</strong> <strong>Louise Velut</strong>, BioSanté (UMR BioSanté) Institut National de la Santé et de la Recherche Médicale, Institut de Recherche Interdisciplinaire de Grenoble, Université Grenoble Alpes, <strong>Unlocking miRNA Regulation: Potential and Pitfalls of Single-Cell miRNA-mRNA Co-Sequencing</strong>.</li>
+</ul>
+<p><a href="../../media/2026-01-28/Resume_StatOmiqueGrenoble2026_LVelut.pdf">Résumé</a>.</p>
+<ul>
+<li><strong>16h25-16h50</strong> <strong>Hugo Varet</strong>, Hub bioinformatique et biostatistique, Institut Pasteur de Paris, <strong>Impact de la méthode et du paramétrage sur les résultats d’analyses d’enrichissement</strong></li>
+</ul>
+<p><a href="../../media/2026-01-28/Resume_StatOmiqueGrenoble2026_HVaret.pdf">Résumé</a>.</p>
+<ul>
+<li><strong>16h50–17h15</strong> <strong>Blanche Francheterre</strong>, Université Paris-Saclay, AgroParisTech, INRAE, UMR MIA Paris-Saclay, <strong>Interpretable variable selection and differential structure estimation in graphical models</strong>.</li>
+</ul>
+<p>Abstract : Network inference is widely used to study direct associations between biomarkers, while differential network analysis aims to identify how these associations change across conditions. In the two-graph setting (e.g., disease vs control), numerous methods have been proposed to jointly estimate networks or directly infer differential edges. However, existing evaluations are often limited to a narrow range of simulation settings and do not systematically compare the major methodological families under realistic high-dimensional conditions.</p>
+<p>To address this gap, we propose a comprehensive simulation framework to evaluate differential support estimation between two graphs. We compare neighborhood selection, graphical lasso, and partial-correlation–based methods, fitted either independently or with joint regularization schemes, including fused, group, node-based, and data-shared lasso penalties. We also consider a direct differential estimator, D-trace. Networks are generated under biologically motivated topologies, scale-free graphs and random networks with hubs, across a large range of dimensions (p = 30, 100, 200, 500) and sample sizes (n = 50 or 100 per condition). Differential structure is introduced via hub-based disruptions or random edge perturbations over varying proportions of differential edges.</p>
+<p>Beyond methodological comparison, the goal is to assess whether differential network estimation can improve downstream classification and interpretation. In particular, we investigate how incorporating differential graph estimates can enhance quadratic discriminant analysis (QDA) by capturing condition-specific covariance structures. While classical approaches primarily focus on identifying differential mean effects, many biological processes, especially in omics data, are also characterized by changes in co-expression or regulatory. By leveraging differential network information, we aim to improve QDA performance and interpretability, enabling the identification of condition-specific interaction patterns that are both predictive and biologically meaningful.</p>
+<ul>
+<li><p><strong>17h15-18h00</strong> <a href="**Chttps://nellev.github.io/**"><strong>Nelle Varoquaux</strong></a>, CNRS Grenoble, <strong>Machine learning for -omics data: functions, structures, and evolution.</strong></p></li>
+<li><p><strong>18h00 - 18h05</strong> Closing</p></li>
+</ul>
 </section>
 <section id="informations-pratiques" class="level3">
 <h3 class="anchored" data-anchor-id="informations-pratiques">Informations pratiques</h3>
@@ -370,21 +399,14 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p><strong>Date</strong> : <strong>Mercredi 28 janvier 2026 de 13h à 18h</strong></p>
-<p><strong>Lieu?</strong> : Bâtiment Pierre Mendès France, Rue des Résidences, Domaine universitaire de Grenoble, Saint-Martin-d’Hères, Grenoble, Isère, Auvergne-Rhône-Alpes, France métropolitaine, 38400, France.</p>
+<p><strong>Date</strong> : <strong>Mercredi 28 janvier 2026 de 13h30 à 18h</strong></p>
+<p><strong>Lieu?</strong> : Amphithéâtre de la <a href="https://www.openstreetmap.org/relation/18906911#map=19/45.191923/5.763153">Maison de la Création et de l’Innovation (MACI)</a>, au 339 avenue Centrale 38400 Saint-Martin-d’Hères.</p>
 <p>L’accès sur site sera réservé aux personnes inscrites. L’inscription est gratuite mais <strong>obligatoire</strong>.</p>
-<p>Les <strong>inscriptions</strong> et <strong>soumissions</strong> se font via <a href="https://statomique2026.sciencesconf.org" class="uri">https://statomique2026.sciencesconf.org</a>.</p>
+<p><strong>Comment venir?</strong> <a href="https://maci.univ-grenoble-alpes.fr/fr/maison-creation-et-linnovation/venir-maci">Indications proposées sur le site de la MACI</a></p>
+<p><strong>Présentations</strong> : les diapositives devront être en Anglais et les présentations pourront être en Anglais ou en Français.</p>
 </div>
 </div>
 </div>
-</section>
-<section id="dates-importantes" class="level3">
-<h3 class="anchored" data-anchor-id="dates-importantes">Dates importantes</h3>
-<ul>
-<li>Fin des soumissions - StatOmique : 19 décembre 2025</li>
-<li>Fin des inscriptions - StatOmique : 5 janvier 2026</li>
-<li>Fin des inscriptions SMPGD : 19 décembre 2025 (attention inscriptions limitées aux 150 premiers inscrits)</li>
-</ul>
 </section>
 <section id="soutien" class="level3">
 <h3 class="anchored" data-anchor-id="soutien">Soutien</h3>
