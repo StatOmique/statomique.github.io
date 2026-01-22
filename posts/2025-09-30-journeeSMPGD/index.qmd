@@ -17,11 +17,11 @@ La conférence SMPGD (Statistical Methods for Post Genomic Data) est une confér
 
 ### Invité.es :
 
--    [**Nelle Varoquaux**](**Chttps://nellev.github.io/**), CNRS Grenoble.
+-   [**Nelle Varoquaux**](**Chttps://nellev.github.io/**), CNRS Grenoble.
 
--    [**Clovis Galiez**](**https://clovisg.github.io/**), Université Grenoble Alpes, CNRS, INRIA, LJK, Grenoble.
+-   [**Clovis Galiez**](**https://clovisg.github.io/**), Université Grenoble Alpes, CNRS, INRIA, LJK, Grenoble.
 
--    **Alexandre Wendling**, Université Grenoble Alpes, CNRS, INRIA, LJK, Grenoble.
+-   **Alexandre Wendling**, Université Grenoble Alpes, CNRS, INRIA, LJK, Grenoble.
 
 ### Programme
 
@@ -45,8 +45,7 @@ Abstract : Advances over the past decade in high-throughput sequencing (HTS) tec
 
 **15h30 - 16h00 break**
 
--   **16h00-16h25** **Louise Velut**, BioSanté  (UMR BioSanté)
-Institut National de la Santé et de la Recherche Médicale, Institut de Recherche Interdisciplinaire de Grenoble, Université Grenoble Alpes, **Unlocking miRNA Regulation: Potential and Pitfalls of Single-Cell miRNA-mRNA Co-Sequencing**.
+-   **16h00-16h25** **Louise Velut**, BioSanté (UMR BioSanté) Institut National de la Santé et de la Recherche Médicale, Institut de Recherche Interdisciplinaire de Grenoble, Université Grenoble Alpes, **Unlocking miRNA Regulation: Potential and Pitfalls of Single-Cell miRNA-mRNA Co-Sequencing**.
 
 [Résumé](/media/2026-01-28/Resume_StatOmiqueGrenoble2026_LVelut.pdf).
 
@@ -64,6 +63,8 @@ Beyond methodological comparison, the goal is to assess whether differential net
 
 -   **17h15-18h00** [**Nelle Varoquaux**](**Chttps://nellev.github.io/**), CNRS Grenoble, **Machine learning for -omics data: functions, structures, and evolution.**
 
+Abstract : The explosion of high-throughput biological data—from genome sequencing to proteomics—offers unprecedented opportunities to decode the complexity of living systems. My research focuses on developing statistical and machine learning methods to analyse -omics data. In this presentation, I will address two key challenges adressed in my lab: reconstructing the 3D architecture of genomes from noisy Hi-C data, and imputing missing values in proteomics datasets.
+
 -   **18h00 - 18h05** Closing
 
 ### Informations pratiques
@@ -71,15 +72,13 @@ Beyond methodological comparison, the goal is to assess whether differential net
 ::: {.callout-tip appearance="simple" icon="false"}
 **Date** : **Mercredi 28 janvier 2026 de 13h30 à 18h**
 
-**Lieu?** : Amphithéâtre de la [Maison de la Création et de l'Innovation (MACI)](https://www.openstreetmap.org/relation/18906911#map=19/45.191923/5.763153), au 339 avenue Centrale
-38400 Saint-Martin-d'Hères.
+**Lieu?** : Amphithéâtre de la [Maison de la Création et de l'Innovation (MACI)](https://www.openstreetmap.org/relation/18906911#map=19/45.191923/5.763153), au 339 avenue Centrale 38400 Saint-Martin-d'Hères.
 
 L'accès sur site sera réservé aux personnes inscrites. L'inscription est gratuite mais **obligatoire**.
 
 **Comment venir?** [Indications proposées sur le site de la MACI](https://maci.univ-grenoble-alpes.fr/fr/maison-creation-et-linnovation/venir-maci)
 
 **Présentations** : les diapositives devront être en Anglais et les présentations pourront être en Anglais ou en Français.
-
 :::
 
 ### Soutien
