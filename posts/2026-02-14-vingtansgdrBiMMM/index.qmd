@@ -1,0 +1,28 @@
+---
+title: 20 ans du GDR BIMMM
+lang: fr
+author: ''
+date: '2026-10-15'
+slug: vingtansgdrBiMMM
+categories: [workshop]
+tags: [adn]
+image: "../../media/LOGO-GDR_BIMMM.png"
+---
+
+**2026** marque les 20 ans du GDR [BIMMM (BioInformatique Moléculaire : Modélisation et Méthodologie)](https://www.gdr-bim.cnrs.fr/), créé sous le nom BIM (BioInformatique Moléculaire) en 2006.
+
+A cette occasion, nous nous réunirons pour un événement scientifique, festif, avec des coups d'oeil dans le rétroviseur et surtout vers l'avenir! 
+Cela se passera:
+
+::: {.callout-tip appearance="simple" icon="false"}
+Jeudi 15 et vendredi 16 octobre 2026
+Salle Dussane à l'ENS Paris
+:::
+
+Cet événement sera précédé par une journée Jeunes Chercheuses et Jeunes Chercheurs autour de "l'ADN dans tous ses états", dans le
+cadre de l'année thématique du même nom co-portée par les GDR BIMMM et [IFM](https://gdr-ifm.fr/), et pilotée par Camille Marchet et Charles Paperman (CRIStAL Lille).
+
+**Mercredi 14 octobre 2026**
+Amphithéâtre Choquet-Bruhat, IHP Paris
+
+Plus d'informations sur ces 2 événements à venir au printemps.
