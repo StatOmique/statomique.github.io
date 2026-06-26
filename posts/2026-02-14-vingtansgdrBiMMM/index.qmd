@@ -9,20 +9,42 @@ tags: [adn]
 image: "../../media/LOGO-GDR_BIMMM.png"
 ---
 
+## 20 ans du GDR BIMMM
+
 **2026** marque les 20 ans du GDR [BIMMM (BioInformatique Moléculaire : Modélisation et Méthodologie)](https://www.gdr-bim.cnrs.fr/), créé sous le nom BIM (BioInformatique Moléculaire) en 2006.
 
-A cette occasion, nous nous réunirons pour un événement scientifique, festif, avec des coups d'oeil dans le rétroviseur et surtout vers l'avenir! 
-Cela se passera:
+A cette occasion, nous nous réunirons pour un événement scientifique, festif, avec des coups d'oeil dans le rétroviseur et surtout vers l'avenir! Cela se passera:
 
 ::: {.callout-tip appearance="simple" icon="false"}
-Jeudi 15 et vendredi 16 octobre 2026
-Salle Dussane à l'ENS Paris
+Jeudi 15 et vendredi 16 octobre 2026 Salle Dussane à l'ENS Paris
 :::
 
-Cet événement sera précédé par une journée Jeunes Chercheuses et Jeunes Chercheurs autour de "l'ADN dans tous ses états", dans le
-cadre de l'année thématique du même nom co-portée par les GDR BIMMM et [IFM](https://gdr-ifm.fr/), et pilotée par Camille Marchet et Charles Paperman (CRIStAL Lille).
+Nous aurons le plaisir d'écouter entre autres : 
 
-**Mercredi 14 octobre 2026**
-Amphithéâtre Choquet-Bruhat, IHP Paris
+- **Anaïs Baudot** (MMG Marseille) - Intégration de données multi-omiques
+- **Lucie Bittner** (ISYEB Paris) - Ecologie et Environnement
+- **Laurent Jacob** (LCQB Paris) - Machine Learning pour la Génomique
+- **Claire Lemaitre** (IRISA Rennes) - Algorithmique des Séquences
+- **Thomas Scheix** (INRAE Toulouse)
 
-Plus d'informations sur ces 2 événements à venir au printemps.
+
+Les inscriptions sont ouvertes jusqu'au 15 septembre, sur le site de l'événement <https://20-ans-bimmm-26.sciencesconf.org/>
+
+## Journée Jeunes Chercheuses et Jeunes Chercheurs autour de "l'ADN dans tous ses états"
+
+Cet événement sera précédé par une journée Jeunes Chercheuses et Jeunes Chercheurs autour de ["l'ADN dans tous ses états"](https://ddal.inria.fr/adn_etat/), dans le cadre de l'année thématique du même nom co-portée par les GDR BIMMM et [IFM](https://gdr-ifm.fr/), et pilotée par Camille Marchet et Charles Paperman (CRIStAL Lille).
+
+**Mercredi 14 octobre 2026** Amphithéâtre Choquet-Bruhat, IHP Paris
+
+Cette journée vise à réunir de jeunes chercheuses et chercheurs en informatique autour de questions, de méthodes et d’objets pouvant entrer en dialogue avec la biologie.
+
+L’appel s’adresse à un public large en informatique. Il ne se limite pas à la bio-informatique ni aux travaux directement issus de la biologie computationnelle. Nous souhaitons au contraire faire apparaître la diversité des approches informatiques susceptibles d’éclairer, de formaliser, de modéliser, d’analyser ou de questionner des phénomènes, données ou structures liés au vivant.
+
+La journée comprendra deux exposés invités :
+
+- **Yann Ponty**, sur la combinatoire des structures de l’ARN ;
+- **Amélie Gheerbrant**, sur les bases de données graphes et les ontologies, avec des illustrations sur des données biologiques.
+   
+
+Les soumissions sont ouvertes jusqu'au 7 septembre. Plus d'infos sur le [site de l'événement]( https://ddal.inria.fr/adn_etat/cfp_jcc-ib_en.html)
+
