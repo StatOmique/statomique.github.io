@@ -1,0 +1,17 @@
+---
+title: Webinaire V. Legoff
+author: ''
+date: '2026-12-01'
+slug: webinaireVLegoff
+categories: webinaire
+tags: [RGCCA, multivariate analysis, survie, benchmark, integration, multi-omics]
+image: "../../media/StatOmique_reseau_logo.jpg"
+---
+
+La prochaine animation StatOmique aura lieu sous forme de webinaire le **mardi 1 décembre de 15h à 16h**
+
+Nous aurons le plaisir d'écouter **Vincent Le Goff**, Centre National de Recherche en Génomique Humaine (CNRGH), CEA, Université Paris-Saclay, Evry-Courcouronnes
+
+qui nous présentera une comparaison de méthodes de réduction conjointe de la dimension pour la prédiction de la survie à l'aide d'une approche multi-omique.
+
+Plus d'informations à venir prochainement
