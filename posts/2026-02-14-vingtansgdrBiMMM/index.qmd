@@ -6,7 +6,7 @@ date: '2026-10-15'
 slug: vingtansgdrBiMMM
 categories: [workshop]
 tags: [adn]
-image: "../../media/LOGO-GDR_BIMMM.png"
+image: "20ansgdrBiMMM.jpeg"
 ---
 
 ## 20 ans du GDR BIMMM
@@ -16,10 +16,10 @@ image: "../../media/LOGO-GDR_BIMMM.png"
 A cette occasion, nous nous réunirons pour un événement scientifique, festif, avec des coups d'oeil dans le rétroviseur et surtout vers l'avenir! Cela se passera:
 
 ::: {.callout-tip appearance="simple" icon="false"}
-Jeudi 15 et vendredi 16 octobre 2026 Salle Dussane à l'ENS Paris
+Jeudi 15 et vendredi 16 octobre 2026 au **siège du CNRS (3 Rue Michel Ange, 75016 Paris)**
 :::
 
-Nous aurons le plaisir d'écouter entre autres : 
+Nous aurons le plaisir d'écouter entre autres :
 
 - **Anaïs Baudot** (MMG Marseille) - Intégration de données multi-omiques
 - **Lucie Bittner** (ISYEB Paris) - Ecologie et Environnement
@@ -27,8 +27,7 @@ Nous aurons le plaisir d'écouter entre autres :
 - **Claire Lemaitre** (IRISA Rennes) - Algorithmique des Séquences
 - **Thomas Scheix** (INRAE Toulouse)
 
-
-Les inscriptions sont ouvertes jusqu'au 15 septembre, sur le site de l'événement <https://20-ans-bimmm-26.sciencesconf.org/>
+Le programme est disponible sur le site de l'événement <https://20-ans-bimmm-26.sciencesconf.org/>
 
 ## Journée Jeunes Chercheuses et Jeunes Chercheurs autour de "l'ADN dans tous ses états"
 
@@ -44,7 +43,5 @@ La journée comprendra deux exposés invités :
 
 - **Yann Ponty**, sur la combinatoire des structures de l’ARN ;
 - **Amélie Gheerbrant**, sur les bases de données graphes et les ontologies, avec des illustrations sur des données biologiques.
-   
 
-Les soumissions sont ouvertes jusqu'au 7 septembre. Plus d'infos sur le [site de l'événement]( https://ddal.inria.fr/adn_etat/cfp_jcc-ib_en.html)
-
+Plus d'infos sur le [site de l'événement](https://ddal.inria.fr/adn_etat/cfp_jcc-ib_en.html)
